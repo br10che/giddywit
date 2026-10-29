@@ -1,0 +1,39 @@
+/*
+ * Theme tokens — change the UI colours and fonts here.
+ * (Pixel-art scene colours live in src/scene/palette.ts.)
+ */
+:root {
+  --night: #1c1830;
+  --night-2: #2a2342;
+  --plum: #4a3355;
+
+  --cream: #fbf1dc;
+  --cream-2: #f3e3c2;
+  --cream-edge: #d9bf8f;
+  --ink: #2f1d12;
+  --ink-soft: #6b4a32;
+
+  --sand: #e9c98f;
+  --ochre: #d39a3d;
+  --terracotta: #c4573a;
+  --rust: #8e3a24;
+  --wood: #7a4a2e;
+  --turquoise: #4f9a94;
+  --turquoise-deep: #2f6f6b;
+  --brass: #d9a441;
+  --gold: #f2c14e;
+
+  --right: #2f7a4f;
+  --right-bg: #dcefd9;
+  --wrong: #a5402a;
+  --wrong-bg: #f7dccf;
+
+  --focus: #2f6f6b;
+
+  --font-body: 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-pixel: 'Silkscreen', ui-monospace, 'Courier New', monospace;
+  --font-logo: 'Rye', Georgia, serif;
+
+  --radius: 6px;
+  --shadow-pixel: 0 4px 0 rgba(30, 16, 10, 0.35);
+}

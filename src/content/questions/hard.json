@@ -1,0 +1,770 @@
+[
+  {
+    "id": "h-001",
+    "category": "Geography",
+    "difficulty": "hard",
+    "question": "Which African country was historically known as Abyssinia?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sudan"
+      },
+      {
+        "id": "b",
+        "text": "Ethiopia"
+      },
+      {
+        "id": "c",
+        "text": "Somalia"
+      },
+      {
+        "id": "d",
+        "text": "Kenya"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "After victory at the Battle of Adwa, Emperor Menelik II forced Italy to recognise Ethiopia's independence.",
+    "source": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "historically known as Abyssinia or simply Ethiopia ... Menelik ensured Ethiopia's independence and confined Italy to Eritrea."
+    }
+  },
+  {
+    "id": "h-002",
+    "category": "Geography",
+    "difficulty": "hard",
+    "question": "Vienna, Bratislava, Budapest and Belgrade all stand on which river?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Rhine"
+      },
+      {
+        "id": "b",
+        "text": "Elbe"
+      },
+      {
+        "id": "c",
+        "text": "Danube"
+      },
+      {
+        "id": "d",
+        "text": "Vistula"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "That makes four capital cities on one river, and along its course the Danube passes through or touches the borders of 10 countries.",
+    "source": "https://en.wikipedia.org/wiki/Danube",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the river passes through or touches the borders of 10 countries ... through four capital cities (Vienna, Bratislava, Budapest, and Belgrade)"
+    }
+  },
+  {
+    "id": "h-003",
+    "category": "Geography",
+    "difficulty": "hard",
+    "question": "The Atacama, the driest nonpolar desert on Earth, lies mainly in which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Chile"
+      },
+      {
+        "id": "b",
+        "text": "Peru"
+      },
+      {
+        "id": "c",
+        "text": "Bolivia"
+      },
+      {
+        "id": "d",
+        "text": "Argentina"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Some Atacama weather stations have never recorded rain, and NASA uses the desert to test instruments for Mars missions.",
+    "source": "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "located on the Pacific coast of South America, in the north of Chile ... some weather stations in the Atacama have never received rain."
+    }
+  },
+  {
+    "id": "h-004",
+    "category": "Science",
+    "difficulty": "hard",
+    "question": "Which chemical element has the symbol W?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Vanadium"
+      },
+      {
+        "id": "b",
+        "text": "Xenon"
+      },
+      {
+        "id": "c",
+        "text": "Ytterbium"
+      },
+      {
+        "id": "d",
+        "text": "Tungsten"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "The W comes from its German name, Wolfram, and tungsten has the highest melting point of all known elements.",
+    "source": "https://en.wikipedia.org/wiki/Tungsten",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Tungsten is a chemical element; it has symbol W (from German: Wolfram) and atomic number 74."
+    }
+  },
+  {
+    "id": "h-005",
+    "category": "Science",
+    "difficulty": "hard",
+    "question": "Which planet spins on its side, with an axial tilt of about 98 degrees?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Neptune"
+      },
+      {
+        "id": "b",
+        "text": "Uranus"
+      },
+      {
+        "id": "c",
+        "text": "Saturn"
+      },
+      {
+        "id": "d",
+        "text": "Venus"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Its tilt gives it the most extreme seasons in the Solar System: each pole spends a 21-year-long winter in darkness.",
+    "source": "https://science.nasa.gov/uranus/facts/",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees."
+    }
+  },
+  {
+    "id": "h-006",
+    "category": "Science",
+    "difficulty": "hard",
+    "question": "After nitrogen and oxygen, which gas is the most abundant in Earth's atmosphere?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Carbon dioxide"
+      },
+      {
+        "id": "b",
+        "text": "Argon"
+      },
+      {
+        "id": "c",
+        "text": "Helium"
+      },
+      {
+        "id": "d",
+        "text": "Neon"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Argon makes up almost 1% of the air, and its name comes from the Greek for 'lazy', because it barely reacts with anything.",
+    "source": "https://en.wikipedia.org/wiki/Argon",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Argon is the third most abundant gas in Earth's atmosphere, at 0.934% (9340 ppmv)."
+    }
+  },
+  {
+    "id": "h-007",
+    "category": "History",
+    "difficulty": "hard",
+    "question": "Which scholar published the first breakthrough in deciphering Egyptian hieroglyphs in 1822?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Howard Carter"
+      },
+      {
+        "id": "b",
+        "text": "Heinrich Schliemann"
+      },
+      {
+        "id": "c",
+        "text": "J.-F. Champollion"
+      },
+      {
+        "id": "d",
+        "text": "Arthur Evans"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "When it finally clicked, he reportedly ran down the street shouting 'Je tiens mon affaire!' (I've got it!) and then collapsed.",
+    "source": "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "In 1822, Champollion published his first breakthrough in the decipherment of the Rosetta hieroglyphs."
+    }
+  },
+  {
+    "id": "h-008",
+    "category": "History",
+    "difficulty": "hard",
+    "question": "In which city stood the Pharos, one of the Seven Wonders of the Ancient World?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Alexandria"
+      },
+      {
+        "id": "b",
+        "text": "Rhodes"
+      },
+      {
+        "id": "c",
+        "text": "Athens"
+      },
+      {
+        "id": "d",
+        "text": "Babylon"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The Pharos was a lighthouse, and its name became the word for 'lighthouse' in Greek, French (phare) and Italian (faro).",
+    "source": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "One of the Seven Wonders of the Ancient World ... The word became generalised in modern Greek to mean \"lighthouse\"."
+    }
+  },
+  {
+    "id": "h-009",
+    "category": "History",
+    "difficulty": "hard",
+    "question": "Hannibal, who famously crossed the Alps with war elephants, was a general of which power?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Macedon"
+      },
+      {
+        "id": "b",
+        "text": "Sparta"
+      },
+      {
+        "id": "c",
+        "text": "Carthage"
+      },
+      {
+        "id": "d",
+        "text": "Persia"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "He marched over the Alps to take the war straight into Rome's Italian heartland, ferrying his elephants across the Rhône on the way.",
+    "source": "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Hannibal led his Carthaginian army over the Alps and into Italy to take the war directly to the Roman Republic."
+    }
+  },
+  {
+    "id": "h-010",
+    "category": "Nature",
+    "difficulty": "hard",
+    "question": "Which animals are the closest living relatives of the hippopotamus?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pigs"
+      },
+      {
+        "id": "b",
+        "text": "Rhinoceroses"
+      },
+      {
+        "id": "c",
+        "text": "Whales and dolphins"
+      },
+      {
+        "id": "d",
+        "text": "Elephants"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Hippos even make their own sunscreen: their skin secretes a red-coloured fluid that is sometimes called 'blood sweat'.",
+    "source": "https://en.wikipedia.org/wiki/Hippopotamus",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the closest living relatives of the hippopotamids are cetaceans"
+    }
+  },
+  {
+    "id": "h-011",
+    "category": "Nature",
+    "difficulty": "hard",
+    "question": "What is the name for the group of mammals that lay eggs?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Marsupials"
+      },
+      {
+        "id": "b",
+        "text": "Monotremes"
+      },
+      {
+        "id": "c",
+        "text": "Placentals"
+      },
+      {
+        "id": "d",
+        "text": "Edentates"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Only the platypus and four echidna species survive, and they have no teats: milk seeps from openings in the mother's skin.",
+    "source": "https://en.wikipedia.org/wiki/Monotreme",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "They are the only mammals still in existence which lay eggs, rather than bearing live young."
+    }
+  },
+  {
+    "id": "h-012",
+    "category": "Nature",
+    "difficulty": "hard",
+    "question": "The axolotl, a salamander that keeps its gills for life, is native to which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Brazil"
+      },
+      {
+        "id": "b",
+        "text": "Japan"
+      },
+      {
+        "id": "c",
+        "text": "Mexico"
+      },
+      {
+        "id": "d",
+        "text": "Australia"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It comes from the lakes of Xochimilco and Chalco near Mexico City, and can regrow entire lost limbs and its tail.",
+    "source": "https://en.wikipedia.org/wiki/Axolotl",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The axolotl is native to the freshwater lakes of Xochimilco and Chalco in the Valley of Mexico."
+    }
+  },
+  {
+    "id": "h-013",
+    "category": "Literature",
+    "difficulty": "hard",
+    "question": "What is the name of Don Quixote's horse?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bucephalus"
+      },
+      {
+        "id": "b",
+        "text": "Babieca"
+      },
+      {
+        "id": "c",
+        "text": "Rocinante"
+      },
+      {
+        "id": "d",
+        "text": "Marengo"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "In Spanish 'rocín' means a low-quality work horse and 'ante' means 'before', marking the old nag's promotion to noble steed.",
+    "source": "https://en.wikipedia.org/wiki/Rocinante",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is Don Quixote's horse in the 1605/1615 novel Don Quixote by Miguel de Cervantes."
+    }
+  },
+  {
+    "id": "h-014",
+    "category": "Literature",
+    "difficulty": "hard",
+    "question": "James Joyce's novel 'Ulysses' takes place over a single day in which city?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "London"
+      },
+      {
+        "id": "b",
+        "text": "Paris"
+      },
+      {
+        "id": "c",
+        "text": "Trieste"
+      },
+      {
+        "id": "d",
+        "text": "Dublin"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "The day is 16 June 1904, which fans around the world now celebrate every year as Bloomsday.",
+    "source": "https://en.wikipedia.org/wiki/Ulysses_(novel)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Joyce's novel takes place during an ordinary day in early 20th-century Dublin."
+    }
+  },
+  {
+    "id": "h-015",
+    "category": "Literature",
+    "difficulty": "hard",
+    "question": "In 'Moby-Dick', what is the name of Captain Ahab's whaling ship?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Essex"
+      },
+      {
+        "id": "b",
+        "text": "Pequod"
+      },
+      {
+        "id": "c",
+        "text": "Nautilus"
+      },
+      {
+        "id": "d",
+        "text": "Hispaniola"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Ishmael, the narrator, says the ship was named after the Pequot, an Algonquian-speaking Native American people.",
+    "source": "https://en.wikipedia.org/wiki/Pequod_(Moby-Dick)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Ishmael says that Pequod was named for the Algonquian-speaking Pequot tribe of Native Americans."
+    }
+  },
+  {
+    "id": "h-016",
+    "category": "Art & Music",
+    "difficulty": "hard",
+    "question": "Which composer wrote the opera 'Madama Butterfly'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Giuseppe Verdi"
+      },
+      {
+        "id": "b",
+        "text": "Giacomo Puccini"
+      },
+      {
+        "id": "c",
+        "text": "Gioachino Rossini"
+      },
+      {
+        "id": "d",
+        "text": "Gaetano Donizetti"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Set in Nagasaki, it flopped badly at its La Scala premiere, so Puccini revised it, splitting the second act in two.",
+    "source": "https://en.wikipedia.org/wiki/Madama_Butterfly",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is an opera in three acts (originally two) by Giacomo Puccini."
+    }
+  },
+  {
+    "id": "h-017",
+    "category": "Art & Music",
+    "difficulty": "hard",
+    "question": "Which Dutch Golden Age artist painted 'Girl with a Pearl Earring'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Rembrandt"
+      },
+      {
+        "id": "b",
+        "text": "Frans Hals"
+      },
+      {
+        "id": "c",
+        "text": "Johannes Vermeer"
+      },
+      {
+        "id": "d",
+        "text": "Jan Steen"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It isn't a portrait but a 'tronie', a study of an imaginary figure, and it hangs in the Mauritshuis in The Hague.",
+    "source": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "by Dutch Golden Age painter Johannes Vermeer, dated c. 1665"
+    }
+  },
+  {
+    "id": "h-018",
+    "category": "Food & Drink",
+    "difficulty": "hard",
+    "question": "Roquefort, the French blue cheese, is made from which animal's milk?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cow"
+      },
+      {
+        "id": "b",
+        "text": "Goat"
+      },
+      {
+        "id": "c",
+        "text": "Water buffalo"
+      },
+      {
+        "id": "d",
+        "text": "Sheep"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "To carry the name it must be ripened in the natural Combalou caves at Roquefort-sur-Soulzon in southern France.",
+    "source": "https://en.wikipedia.org/wiki/Roquefort",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Roquefort is made entirely from the milk of the Lacaune breed of sheep."
+    }
+  },
+  {
+    "id": "h-019",
+    "category": "Food & Drink",
+    "difficulty": "hard",
+    "question": "Kirsch, a clear brandy used in Black Forest gateau, is distilled from which fruit?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Plums"
+      },
+      {
+        "id": "b",
+        "text": "Pears"
+      },
+      {
+        "id": "c",
+        "text": "Apricots"
+      },
+      {
+        "id": "d",
+        "text": "Cherries"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Its full German name, Kirschwasser, means 'cherry water', and it is also a key ingredient in Swiss fondue.",
+    "source": "https://en.wikipedia.org/wiki/Kirsch",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a clear, colourless brandy from Germany, Switzerland, and France ... double distillation of morello cherries."
+    }
+  },
+  {
+    "id": "h-020",
+    "category": "Sport",
+    "difficulty": "hard",
+    "question": "In which sport would you perform a jump called a Salchow?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Figure skating"
+      },
+      {
+        "id": "b",
+        "text": "Gymnastics"
+      },
+      {
+        "id": "c",
+        "text": "Ski jumping"
+      },
+      {
+        "id": "d",
+        "text": "Diving"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "It is named after its inventor, the Swedish world champion Ulrich Salchow, and is one of skating's 'edge jumps'.",
+    "source": "https://en.wikipedia.org/wiki/Salchow_jump",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "an edge jump in figure skating ... named after its inventor, Swedish world champion Ulrich Salchow in 1909"
+    }
+  },
+  {
+    "id": "h-021",
+    "category": "Sport",
+    "difficulty": "hard",
+    "question": "Which country hosted and won the first FIFA World Cup in 1930?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Argentina"
+      },
+      {
+        "id": "b",
+        "text": "Brazil"
+      },
+      {
+        "id": "c",
+        "text": "Uruguay"
+      },
+      {
+        "id": "d",
+        "text": "Italy"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It was chosen partly because it was celebrating 100 years of its first constitution, and it beat Argentina 4–2 in the final.",
+    "source": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Uruguay defeated Argentina 4–2 in front of 68,346 people to become the first nation to win the World Cup."
+    }
+  },
+  {
+    "id": "h-022",
+    "category": "Everyday",
+    "difficulty": "hard",
+    "question": "What is the name of the small dot above a lowercase 'i' or 'j'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Serif"
+      },
+      {
+        "id": "b",
+        "text": "Ligature"
+      },
+      {
+        "id": "c",
+        "text": "Tittle"
+      },
+      {
+        "id": "d",
+        "text": "Cedilla"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "'Jot and tittle' means every tiny detail, and the saying 'to a T' is thought to come from the older 'to a tittle'.",
+    "source": "https://en.wikipedia.org/wiki/Tittle",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The tittle or superscript dot is the dot on top of lowercase i and j."
+    }
+  },
+  {
+    "id": "h-023",
+    "category": "Everyday",
+    "difficulty": "hard",
+    "question": "An aircraft's 'black box' flight recorder is actually painted which colour?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bright orange"
+      },
+      {
+        "id": "b",
+        "text": "Black"
+      },
+      {
+        "id": "c",
+        "text": "Silver"
+      },
+      {
+        "id": "d",
+        "text": "Bright green"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The orange makes it easy to spot in wreckage, and an underwater beacon 'pings' to help searchers find it if it lands in the sea.",
+    "source": "https://en.wikipedia.org/wiki/Flight_recorder",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "they are required to be painted bright orange, to aid in their recovery after accidents."
+    }
+  },
+  {
+    "id": "h-024",
+    "category": "Everyday",
+    "difficulty": "hard",
+    "question": "What is the name of the small plastic or metal tip at the end of a shoelace?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ferrule"
+      },
+      {
+        "id": "b",
+        "text": "Grommet"
+      },
+      {
+        "id": "c",
+        "text": "Aglet"
+      },
+      {
+        "id": "d",
+        "text": "Eyelet"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The word comes from Old French 'aguillette', a diminutive of 'aguille', meaning needle or pin.",
+    "source": "https://en.wikipedia.org/wiki/Aglet",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a small sheath, often made of plastic or metal, attached at each end of a shoelace, a cord, or a drawstring."
+    }
+  }
+]

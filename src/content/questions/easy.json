@@ -1,0 +1,770 @@
+[
+  {
+    "id": "e-001",
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "What is the capital city of Japan?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Kyoto"
+      },
+      {
+        "id": "b",
+        "text": "Osaka"
+      },
+      {
+        "id": "c",
+        "text": "Tokyo"
+      },
+      {
+        "id": "d",
+        "text": "Hiroshima"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Before it became Tokyo, the city was known as Edo.",
+    "source": "https://en.wikipedia.org/wiki/Tokyo",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. ... Tokyo was originally known as Edo."
+    }
+  },
+  {
+    "id": "e-002",
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "On which continent is the Sahara Desert?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Asia"
+      },
+      {
+        "id": "b",
+        "text": "Africa"
+      },
+      {
+        "id": "c",
+        "text": "Australia"
+      },
+      {
+        "id": "d",
+        "text": "South America"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The Sahara is the world's largest hot desert and covers about 31% of the African continent.",
+    "source": "https://en.wikipedia.org/wiki/Sahara",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "It covers 9 million square kilometres (3,500,000 sq mi), 31% of the African continent. ... The Sahara is the world's largest hot desert."
+    }
+  },
+  {
+    "id": "e-003",
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "Which European country is famously shaped like a boot?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Italy"
+      },
+      {
+        "id": "b",
+        "text": "Greece"
+      },
+      {
+        "id": "c",
+        "text": "Portugal"
+      },
+      {
+        "id": "d",
+        "text": "Croatia"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Italians nickname their peninsula 'lo Stivale' (the Boot): Calabria forms the toe and Salento the heel.",
+    "source": "https://en.wikipedia.org/wiki/Italian_Peninsula",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "It is nicknamed lo Stivale (\"the Boot\"), because the shape of the peninsula resembles a high-heeled boot."
+    }
+  },
+  {
+    "id": "e-004",
+    "category": "Science",
+    "difficulty": "easy",
+    "question": "What is the chemical formula for water?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "CO2"
+      },
+      {
+        "id": "b",
+        "text": "NaCl"
+      },
+      {
+        "id": "c",
+        "text": "O2"
+      },
+      {
+        "id": "d",
+        "text": "H2O"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Water is the only common substance found as a solid, a liquid and a gas in normal conditions on Earth.",
+    "source": "https://en.wikipedia.org/wiki/Water",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Water is an inorganic compound with the chemical formula H2O. ... Water is the only common substance to exist as a solid, liquid, and gas in normal terrestrial conditions."
+    }
+  },
+  {
+    "id": "e-005",
+    "category": "Science",
+    "difficulty": "easy",
+    "question": "Which planet is closest to the Sun?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Venus"
+      },
+      {
+        "id": "b",
+        "text": "Mercury"
+      },
+      {
+        "id": "c",
+        "text": "Mars"
+      },
+      {
+        "id": "d",
+        "text": "Earth"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Mercury is also the fastest planet, racing once around the Sun every 88 Earth days.",
+    "source": "https://science.nasa.gov/mercury/facts/",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Mercury is the smallest planet in our solar system and nearest to the Sun. ... zipping around the Sun every 88 Earth days."
+    }
+  },
+  {
+    "id": "e-006",
+    "category": "Science",
+    "difficulty": "easy",
+    "question": "Which gas do plants take in from the air to make food by photosynthesis?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Oxygen"
+      },
+      {
+        "id": "b",
+        "text": "Nitrogen"
+      },
+      {
+        "id": "c",
+        "text": "Helium"
+      },
+      {
+        "id": "d",
+        "text": "Carbon dioxide"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Plants release oxygen as a by-product, and photosynthesis is the main source of the oxygen in Earth's atmosphere.",
+    "source": "https://en.wikipedia.org/wiki/Photosynthesis",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Carbon dioxide is converted into sugars in a process called carbon fixation ... Oxygenic photosynthesis is the main source of oxygen in the Earth's atmosphere"
+    }
+  },
+  {
+    "id": "e-007",
+    "category": "History",
+    "difficulty": "easy",
+    "question": "Which ancient civilisation built the Great Pyramid of Giza?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ancient Greeks"
+      },
+      {
+        "id": "b",
+        "text": "Romans"
+      },
+      {
+        "id": "c",
+        "text": "Ancient Egyptians"
+      },
+      {
+        "id": "d",
+        "text": "Persians"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The Great Pyramid, tomb of Pharaoh Khufu, was the world's tallest human-made structure for more than 3,700 years.",
+    "source": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Great Pyramid served as the tomb of Egyptian Pharaoh Khufu ... the world's tallest human-made structure for more than 3,700 years."
+    }
+  },
+  {
+    "id": "e-008",
+    "category": "History",
+    "difficulty": "easy",
+    "question": "Who was the first person to walk on the Moon?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Neil Armstrong"
+      },
+      {
+        "id": "b",
+        "text": "Buzz Aldrin"
+      },
+      {
+        "id": "c",
+        "text": "Yuri Gagarin"
+      },
+      {
+        "id": "d",
+        "text": "John Glenn"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "His Apollo 11 moonwalk in 1969 was broadcast live to an estimated 600 million viewers.",
+    "source": "https://en.wikipedia.org/wiki/Apollo_11",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Armstrong became the first human to walk on the Moon approximately six hours after landing ... Armstrong's moonwalk was broadcast live to an estimated 600 million viewers"
+    }
+  },
+  {
+    "id": "e-009",
+    "category": "History",
+    "difficulty": "easy",
+    "question": "Which ancient empire built the Colosseum?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Greek"
+      },
+      {
+        "id": "b",
+        "text": "Ottoman"
+      },
+      {
+        "id": "c",
+        "text": "Persian"
+      },
+      {
+        "id": "d",
+        "text": "Roman"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Built under the Flavian emperors, it could hold an estimated 50,000 to 80,000 spectators.",
+    "source": "https://en.wikipedia.org/wiki/Colosseum",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The three emperors who were patrons of the work are known as the Flavian dynasty. ... It could hold an estimated 50,000 to 80,000 spectators"
+    }
+  },
+  {
+    "id": "e-010",
+    "category": "Nature",
+    "difficulty": "easy",
+    "question": "What is a baby kangaroo called?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cub"
+      },
+      {
+        "id": "b",
+        "text": "Joey"
+      },
+      {
+        "id": "c",
+        "text": "Kit"
+      },
+      {
+        "id": "d",
+        "text": "Calf"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "A newborn joey is about the size of a lima bean and climbs through its mother's fur to reach the pouch.",
+    "source": "https://en.wikipedia.org/wiki/Kangaroo",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the young ones are joeys ... When the joey is born, it is about the size of a lima bean."
+    }
+  },
+  {
+    "id": "e-011",
+    "category": "Nature",
+    "difficulty": "easy",
+    "question": "What makes up almost all of a giant panda's diet?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Fish"
+      },
+      {
+        "id": "b",
+        "text": "Berries"
+      },
+      {
+        "id": "c",
+        "text": "Bamboo"
+      },
+      {
+        "id": "d",
+        "text": "Insects"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Bamboo is about 99% of its diet, and an average panda eats 9 to 14 kg of it every day.",
+    "source": "https://en.wikipedia.org/wiki/Giant_panda",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "approximately 99% of its diet consisting of bamboo ... The average giant panda eats 9 to 14 kg (20 to 31 lb) of bamboo shoots per day."
+    }
+  },
+  {
+    "id": "e-012",
+    "category": "Nature",
+    "difficulty": "easy",
+    "question": "What is the tallest living land animal?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Giraffe"
+      },
+      {
+        "id": "b",
+        "text": "African elephant"
+      },
+      {
+        "id": "c",
+        "text": "Ostrich"
+      },
+      {
+        "id": "d",
+        "text": "Moose"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Giraffes are also the largest ruminants on Earth, chewing the cud just like cows.",
+    "source": "https://en.wikipedia.org/wiki/Giraffe",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "They are the tallest living terrestrial animals and the largest ruminants on Earth."
+    }
+  },
+  {
+    "id": "e-013",
+    "category": "Literature",
+    "difficulty": "easy",
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Charles Dickens"
+      },
+      {
+        "id": "b",
+        "text": "William Shakespeare"
+      },
+      {
+        "id": "c",
+        "text": "Jane Austen"
+      },
+      {
+        "id": "d",
+        "text": "Geoffrey Chaucer"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The play is set in Verona, Italy, and opens with a street brawl between Montague and Capulet servants.",
+    "source": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is a tragedy written by William Shakespeare about the romance between two young Italians from feuding families. ... The play, set in Verona, Italy"
+    }
+  },
+  {
+    "id": "e-014",
+    "category": "Literature",
+    "difficulty": "easy",
+    "question": "Which fictional detective lives at 221B Baker Street, London?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hercule Poirot"
+      },
+      {
+        "id": "b",
+        "text": "Miss Marple"
+      },
+      {
+        "id": "c",
+        "text": "Sherlock Holmes"
+      },
+      {
+        "id": "d",
+        "text": "Inspector Maigret"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "When the stories were first published, house numbers on Baker Street didn't go as high as 221.",
+    "source": "https://en.wikipedia.org/wiki/221B_Baker_Street",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "221B Baker Street is the London address of the fictional detective Sherlock Holmes ... street numbers in Baker Street did not go as high as 221."
+    }
+  },
+  {
+    "id": "e-015",
+    "category": "Art & Music",
+    "difficulty": "easy",
+    "question": "Who painted the Mona Lisa?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "b",
+        "text": "Raphael"
+      },
+      {
+        "id": "c",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "d",
+        "text": "Leonardo da Vinci"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "It is painted in oil on a white poplar wood panel and has been on display at the Louvre in Paris since 1797.",
+    "source": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Mona Lisa is a half-length portrait painting by the Italian artist Leonardo da Vinci. ... It is painted in oil on a white poplar panel."
+    }
+  },
+  {
+    "id": "e-016",
+    "category": "Art & Music",
+    "difficulty": "easy",
+    "question": "How many strings does a standard violin have?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Four"
+      },
+      {
+        "id": "b",
+        "text": "Five"
+      },
+      {
+        "id": "c",
+        "text": "Six"
+      },
+      {
+        "id": "d",
+        "text": "Three"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Its strings are tuned G, D, A and E, and it is the smallest and highest-pitched instrument of the violin family.",
+    "source": "https://en.wikipedia.org/wiki/Violin",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "commonly have four strings (sometimes five), usually tuned in perfect fifths with notes G3, D4, A4, E5"
+    }
+  },
+  {
+    "id": "e-017",
+    "category": "Food & Drink",
+    "difficulty": "easy",
+    "question": "Which fruit is the main ingredient of guacamole?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lime"
+      },
+      {
+        "id": "b",
+        "text": "Avocado"
+      },
+      {
+        "id": "c",
+        "text": "Mango"
+      },
+      {
+        "id": "d",
+        "text": "Kiwi fruit"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The name comes from the Nahuatl word āhuacamōlli, which literally means 'avocado sauce'.",
+    "source": "https://en.wikipedia.org/wiki/Guacamole",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is an avocado-based dip, spread, or salad first developed in Mexico. ... literally translates to 'avocado sauce'"
+    }
+  },
+  {
+    "id": "e-018",
+    "category": "Food & Drink",
+    "difficulty": "easy",
+    "question": "Paella is a famous rice dish from which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Spain"
+      },
+      {
+        "id": "b",
+        "text": "Italy"
+      },
+      {
+        "id": "c",
+        "text": "Mexico"
+      },
+      {
+        "id": "d",
+        "text": "Portugal"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "It comes from the Valencia region, and 'paella' is simply the Valencian word for a frying pan.",
+    "source": "https://en.wikipedia.org/wiki/Paella",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is a rice dish originally from the Valencian Community. ... It is one of the best-known dishes in Spanish cuisine. ... Paella is a Valencian word that means frying pan"
+    }
+  },
+  {
+    "id": "e-019",
+    "category": "Food & Drink",
+    "difficulty": "easy",
+    "question": "Hummus is made mainly from which legume?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lentils"
+      },
+      {
+        "id": "b",
+        "text": "Peas"
+      },
+      {
+        "id": "c",
+        "text": "Broad beans"
+      },
+      {
+        "id": "d",
+        "text": "Chickpeas"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "'Hummus' is simply the Arabic word for chickpeas; they're blended with tahini, lemon juice and garlic.",
+    "source": "https://en.wikipedia.org/wiki/Hummus",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "made from cooked, mashed chickpeas blended with tahini, lemon juice, and garlic ... Arabic: حُمُّص, romanized: ḥummuṣ 'chickpeas'"
+    }
+  },
+  {
+    "id": "e-020",
+    "category": "Sport",
+    "difficulty": "easy",
+    "question": "How many players does each team have on the pitch in a football (soccer) match?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "9"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "11"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Only the goalkeepers may use their hands and arms, and only within their own penalty area.",
+    "source": "https://en.wikipedia.org/wiki/Association_football",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a team sport played between two teams of 11 players each ... Only the goalkeepers may use their hands and arms, but only within their own penalty area."
+    }
+  },
+  {
+    "id": "e-021",
+    "category": "Sport",
+    "difficulty": "easy",
+    "question": "In which sport would you see a slam dunk?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Volleyball"
+      },
+      {
+        "id": "b",
+        "text": "Basketball"
+      },
+      {
+        "id": "c",
+        "text": "Tennis"
+      },
+      {
+        "id": "d",
+        "text": "Rugby"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "James Naismith invented the game in 1891 with a peach basket nailed up high, so at first the ball had to be fetched out by hand.",
+    "source": "https://en.wikipedia.org/wiki/Basketball",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "players may use a variety of shots – the layup, the jump shot, or a dunk. ... Naismith ... nailed a peach basket onto an elevated track."
+    }
+  },
+  {
+    "id": "e-022",
+    "category": "Everyday",
+    "difficulty": "easy",
+    "question": "How many days are there in a leap year?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "364"
+      },
+      {
+        "id": "b",
+        "text": "365"
+      },
+      {
+        "id": "c",
+        "text": "367"
+      },
+      {
+        "id": "d",
+        "text": "366"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "People born on 29 February are called 'leaplings' and usually celebrate on 28 February or 1 March in other years.",
+    "source": "https://en.wikipedia.org/wiki/Leap_year",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The 366th day (or 13th month) is added ... A person born on 29 February may be called a \"leapling\" or a \"leaper\"."
+    }
+  },
+  {
+    "id": "e-023",
+    "category": "Everyday",
+    "difficulty": "easy",
+    "question": "How many sides does a hexagon have?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Five"
+      },
+      {
+        "id": "b",
+        "text": "Six"
+      },
+      {
+        "id": "c",
+        "text": "Seven"
+      },
+      {
+        "id": "d",
+        "text": "Eight"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Bees build hexagonal honeycomb cells because the shape uses less wax while staying strong.",
+    "source": "https://en.wikipedia.org/wiki/Hexagon",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a hexagon ... is a six-sided polygon. ... This means that honeycombs require less wax to construct and gain much strength under compression."
+    }
+  },
+  {
+    "id": "e-024",
+    "category": "Everyday",
+    "difficulty": "easy",
+    "question": "On a standard traffic light, which colour tells drivers to stop?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Green"
+      },
+      {
+        "id": "b",
+        "text": "Amber"
+      },
+      {
+        "id": "c",
+        "text": "Red"
+      },
+      {
+        "id": "d",
+        "text": "Blue"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "London's first traffic signals went up outside the Houses of Parliament in 1868 and exploded only weeks later.",
+    "source": "https://en.wikipedia.org/wiki/Traffic_light",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The usual traffic light colors are red to stop traffic ... In December 1868, the first traffic signals ... were installed outside the Houses of Parliament ... This system exploded on 2 January 1869"
+    }
+  }
+]

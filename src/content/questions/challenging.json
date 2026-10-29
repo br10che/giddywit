@@ -1,0 +1,770 @@
+[
+  {
+    "id": "c-001",
+    "category": "Geography",
+    "difficulty": "challenging",
+    "question": "Lake Titicaca, high in the Andes, lies on the border between Peru and which other country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Chile"
+      },
+      {
+        "id": "b",
+        "text": "Bolivia"
+      },
+      {
+        "id": "c",
+        "text": "Ecuador"
+      },
+      {
+        "id": "d",
+        "text": "Argentina"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "At about 3,812 m above sea level, Titicaca is home to the Uros people, who live on floating islands built from layers of totora reeds.",
+    "source": "https://en.wikipedia.org/wiki/Lake_Titicaca",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "constructed by the Uros (or Uru) people from layers of cut totora, a thick, buoyant sedge"
+    }
+  },
+  {
+    "id": "c-002",
+    "category": "Geography",
+    "difficulty": "challenging",
+    "question": "What is the capital city of Australia?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sydney"
+      },
+      {
+        "id": "b",
+        "text": "Canberra"
+      },
+      {
+        "id": "c",
+        "text": "Melbourne"
+      },
+      {
+        "id": "d",
+        "text": "Perth"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Canberra was picked as a compromise between rivals Sydney and Melbourne, and was planned from scratch by architects Walter Burley Griffin and Marion Mahony Griffin.",
+    "source": "https://en.wikipedia.org/wiki/Canberra",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "being a compromise between Sydney and Melbourne, Australia's two largest cities."
+    }
+  },
+  {
+    "id": "c-003",
+    "category": "Geography",
+    "difficulty": "challenging",
+    "question": "Which strait separates Europe from Africa?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bosphorus"
+      },
+      {
+        "id": "b",
+        "text": "Strait of Messina"
+      },
+      {
+        "id": "c",
+        "text": "Dardanelles"
+      },
+      {
+        "id": "d",
+        "text": "Strait of Gibraltar"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "At its narrowest point only about 14 km (8.9 miles) of water lies between Spain and Morocco.",
+    "source": "https://en.wikipedia.org/wiki/Strait_of_Gibraltar",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The two continents are separated by 7.7 nautical miles (14.2 kilometers, 8.9 statute miles) at its narrowest point."
+    }
+  },
+  {
+    "id": "c-004",
+    "category": "Science",
+    "difficulty": "challenging",
+    "question": "Which vitamin does human skin make when it is exposed to sunlight?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Vitamin A"
+      },
+      {
+        "id": "b",
+        "text": "Vitamin C"
+      },
+      {
+        "id": "c",
+        "text": "Vitamin K"
+      },
+      {
+        "id": "d",
+        "text": "Vitamin D"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "UVB rays in sunlight trigger vitamin D production in the skin, and the body needs vitamin D to absorb calcium from food.",
+    "source": "https://en.wikipedia.org/wiki/Vitamin_D",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "adequate skin exposure to the ultraviolet B (UVB) radiation component of sunlight there is synthesis of cholecalciferol"
+    }
+  },
+  {
+    "id": "c-005",
+    "category": "Science",
+    "difficulty": "challenging",
+    "question": "Which red blood cell type is often called the 'universal donor'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "O positive"
+      },
+      {
+        "id": "b",
+        "text": "AB positive"
+      },
+      {
+        "id": "c",
+        "text": "O negative"
+      },
+      {
+        "id": "d",
+        "text": "A negative"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "O negative red cells can generally be given to anyone, while people with AB positive blood are known as universal recipients.",
+    "source": "https://en.wikipedia.org/wiki/Blood_type",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "In transfusions of red blood cells, individuals with type O Rh D-negative blood are often called universal donors."
+    }
+  },
+  {
+    "id": "c-006",
+    "category": "Science",
+    "difficulty": "challenging",
+    "question": "Where in the human body is the stapes, the smallest bone, found?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "In the nose"
+      },
+      {
+        "id": "b",
+        "text": "In the middle ear"
+      },
+      {
+        "id": "c",
+        "text": "In the wrist"
+      },
+      {
+        "id": "d",
+        "text": "In the big toe"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The stirrup-shaped stapes measures only about 2–3 mm, yet it passes sound vibrations on to the inner ear.",
+    "source": "https://en.wikipedia.org/wiki/Stapes",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The stapes is the smallest and lightest bone in the human body ... It measures roughly 2 to 3 mm"
+    }
+  },
+  {
+    "id": "c-007",
+    "category": "History",
+    "difficulty": "challenging",
+    "question": "The temple complex of Angkor Wat is in which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Thailand"
+      },
+      {
+        "id": "b",
+        "text": "Cambodia"
+      },
+      {
+        "id": "c",
+        "text": "Laos"
+      },
+      {
+        "id": "d",
+        "text": "Myanmar"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Angkor Wat was first built as a Hindu temple dedicated to Vishnu, and it is pictured on Cambodia's national flag.",
+    "source": "https://en.wikipedia.org/wiki/Angkor_Wat",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "It is a symbol of Cambodia and appears on the Cambodian national flag."
+    }
+  },
+  {
+    "id": "c-008",
+    "category": "History",
+    "difficulty": "challenging",
+    "question": "China's Terracotta Army was buried to guard the tomb of which emperor?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Kublai Khan"
+      },
+      {
+        "id": "b",
+        "text": "Emperor Wu of Han"
+      },
+      {
+        "id": "c",
+        "text": "Qin Shi Huang"
+      },
+      {
+        "id": "d",
+        "text": "Emperor Taizong"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The thousands of clay warriors lay hidden until 1974, when local farmers digging a well broke into one of the pits.",
+    "source": "https://en.wikipedia.org/wiki/Terracotta_Army",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "discovered on 29 March 1974 by a group of farmers"
+    }
+  },
+  {
+    "id": "c-009",
+    "category": "History",
+    "difficulty": "challenging",
+    "question": "Which Mughal emperor built the Taj Mahal as a tomb for his wife?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Akbar"
+      },
+      {
+        "id": "b",
+        "text": "Shah Jahan"
+      },
+      {
+        "id": "c",
+        "text": "Aurangzeb"
+      },
+      {
+        "id": "d",
+        "text": "Babur"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Shah Jahan built it for his wife Mumtaz Mahal; the white marble mausoleum is inlaid with semi-precious stones.",
+    "source": "https://en.wikipedia.org/wiki/Taj_Mahal",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan"
+    }
+  },
+  {
+    "id": "c-010",
+    "category": "Nature",
+    "difficulty": "challenging",
+    "question": "The Komodo dragon, the largest living lizard, is found in the wild in only which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Philippines"
+      },
+      {
+        "id": "b",
+        "text": "Malaysia"
+      },
+      {
+        "id": "c",
+        "text": "Indonesia"
+      },
+      {
+        "id": "d",
+        "text": "Papua New Guinea"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Female Komodo dragons can lay fertile eggs without ever meeting a male, and every baby hatched this way is male.",
+    "source": "https://en.wikipedia.org/wiki/Komodo_dragon",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "only males are produced by parthenogenesis in this species."
+    }
+  },
+  {
+    "id": "c-011",
+    "category": "Nature",
+    "difficulty": "challenging",
+    "question": "What is the largest living species of fish?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Basking shark"
+      },
+      {
+        "id": "b",
+        "text": "Whale shark"
+      },
+      {
+        "id": "c",
+        "text": "Blue whale"
+      },
+      {
+        "id": "d",
+        "text": "Great white shark"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Despite its huge size, the whale shark is a gentle filter feeder that lives mainly on plankton, krill and small fish.",
+    "source": "https://en.wikipedia.org/wiki/Whale_shark",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The whale shark (Rhincodon typus) is a slow-moving, filter-feeding carpet shark and the largest known extant fish species."
+    }
+  },
+  {
+    "id": "c-012",
+    "category": "Nature",
+    "difficulty": "challenging",
+    "question": "Bamboo belongs to which plant family?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Grasses"
+      },
+      {
+        "id": "b",
+        "text": "Palms"
+      },
+      {
+        "id": "c",
+        "text": "Ferns"
+      },
+      {
+        "id": "d",
+        "text": "Conifers"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Giant bamboos are the largest grasses on Earth, and some species can grow 91 cm (36 in) in a single day.",
+    "source": "https://en.wikipedia.org/wiki/Bamboo",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "making up the subfamily Bambusoideae of the grass family Poaceae"
+    }
+  },
+  {
+    "id": "c-013",
+    "category": "Literature",
+    "difficulty": "challenging",
+    "question": "Which author created the Belgian detective Hercule Poirot?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Arthur Conan Doyle"
+      },
+      {
+        "id": "b",
+        "text": "Dorothy L. Sayers"
+      },
+      {
+        "id": "c",
+        "text": "G. K. Chesterton"
+      },
+      {
+        "id": "d",
+        "text": "Agatha Christie"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Poirot is the only fictional character ever to receive an obituary on the front page of The New York Times.",
+    "source": "https://en.wikipedia.org/wiki/Hercule_Poirot",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a recurring fictional Belgian detective created by the English writer Agatha Christie."
+    }
+  },
+  {
+    "id": "c-014",
+    "category": "Literature",
+    "difficulty": "challenging",
+    "question": "Which Nigerian author wrote the novel 'Things Fall Apart'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wole Soyinka"
+      },
+      {
+        "id": "b",
+        "text": "Ben Okri"
+      },
+      {
+        "id": "c",
+        "text": "Ngũgĩ wa Thiong'o"
+      },
+      {
+        "id": "d",
+        "text": "Chinua Achebe"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "It was Achebe's first novel, and its title is borrowed from a line in W. B. Yeats's poem 'The Second Coming'.",
+    "source": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The novel's title was taken from a verse of \"The Second Coming\", a 1919 poem by Irish poet W. B. Yeats."
+    }
+  },
+  {
+    "id": "c-015",
+    "category": "Art & Music",
+    "difficulty": "challenging",
+    "question": "Who painted 'The Persistence of Memory', famous for its melting clocks?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "René Magritte"
+      },
+      {
+        "id": "b",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "c",
+        "text": "Joan Miró"
+      },
+      {
+        "id": "d",
+        "text": "Max Ernst"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The famous canvas is surprisingly small, just 24 × 33 cm, and has hung at MoMA in New York since 1934.",
+    "source": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is a 1931 painting by artist Salvador Dalí ... 24 cm × 33 cm (9.5 in × 13 in)"
+    }
+  },
+  {
+    "id": "c-016",
+    "category": "Art & Music",
+    "difficulty": "challenging",
+    "question": "How many keys does a standard modern piano have?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "76"
+      },
+      {
+        "id": "b",
+        "text": "82"
+      },
+      {
+        "id": "c",
+        "text": "88"
+      },
+      {
+        "id": "d",
+        "text": "96"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "They split into 52 white keys and 36 black keys.",
+    "source": "https://en.wikipedia.org/wiki/Piano",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Most modern pianos have 52 white keys and 36 black keys, for a total of 88 keys"
+    }
+  },
+  {
+    "id": "c-017",
+    "category": "Art & Music",
+    "difficulty": "challenging",
+    "question": "Which composer wrote the violin concertos 'The Four Seasons'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Johann Sebastian Bach"
+      },
+      {
+        "id": "b",
+        "text": "George Frideric Handel"
+      },
+      {
+        "id": "c",
+        "text": "Arcangelo Corelli"
+      },
+      {
+        "id": "d",
+        "text": "Antonio Vivaldi"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Unusually for the time, each concerto was published with a sonnet describing its season, possibly written by Vivaldi himself.",
+    "source": "https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Vivaldi published the concerti with accompanying sonnets (possibly written by the composer himself)"
+    }
+  },
+  {
+    "id": "c-018",
+    "category": "Food & Drink",
+    "difficulty": "challenging",
+    "question": "Which spice is made from the dried stigmas of a crocus flower?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Turmeric"
+      },
+      {
+        "id": "b",
+        "text": "Saffron"
+      },
+      {
+        "id": "c",
+        "text": "Paprika"
+      },
+      {
+        "id": "d",
+        "text": "Cardamom"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The threads are picked by hand: it takes roughly 150 flowers to make just one gram of dried saffron.",
+    "source": "https://en.wikipedia.org/wiki/Saffron",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a spice derived from the sterile autumn-blooming flower of Crocus sativus ... roughly 150 flowers yield 1 g"
+    }
+  },
+  {
+    "id": "c-019",
+    "category": "Food & Drink",
+    "difficulty": "challenging",
+    "question": "Japanese sake is brewed mainly from which grain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Barley"
+      },
+      {
+        "id": "b",
+        "text": "Wheat"
+      },
+      {
+        "id": "c",
+        "text": "Rice"
+      },
+      {
+        "id": "d",
+        "text": "Millet"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Though often called 'rice wine', sake is brewed more like beer: the grain's starch is first turned into sugar, which then ferments.",
+    "source": "https://en.wikipedia.org/wiki/Sake",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "produced by a brewing process more akin to that of beer, where starch is converted into sugars that ferment into alcohol"
+    }
+  },
+  {
+    "id": "c-020",
+    "category": "Sport",
+    "difficulty": "challenging",
+    "question": "In which athletics event is the 'Fosbury Flop' technique used?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pole vault"
+      },
+      {
+        "id": "b",
+        "text": "Long jump"
+      },
+      {
+        "id": "c",
+        "text": "Triple jump"
+      },
+      {
+        "id": "d",
+        "text": "High jump"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "American Dick Fosbury made the backwards-over-the-bar style famous by winning gold with it at the 1968 Mexico City Olympics.",
+    "source": "https://en.wikipedia.org/wiki/Fosbury_flop",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Fosbury flop is a jumping style used in the track and field event of high jump."
+    }
+  },
+  {
+    "id": "c-021",
+    "category": "Sport",
+    "difficulty": "challenging",
+    "question": "How many players does each team have on the field in rugby union?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "11"
+      },
+      {
+        "id": "b",
+        "text": "13"
+      },
+      {
+        "id": "c",
+        "text": "15"
+      },
+      {
+        "id": "d",
+        "text": "18"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "A union side packs eight forwards into its scrum, two more than a rugby league team does.",
+    "source": "https://en.wikipedia.org/wiki/Rugby_union",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Each team starts the match with 15 players on the field"
+    }
+  },
+  {
+    "id": "c-022",
+    "category": "Everyday",
+    "difficulty": "challenging",
+    "question": "What does the file format name 'PDF' stand for?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Portable Document Format"
+      },
+      {
+        "id": "b",
+        "text": "Printable Data File"
+      },
+      {
+        "id": "c",
+        "text": "Public Document Format"
+      },
+      {
+        "id": "d",
+        "text": "Portable Digital File"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Adobe released the format in 1993, and in 2008 it became an open international standard, ISO 32000.",
+    "source": "https://en.wikipedia.org/wiki/PDF",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Portable Document Format (PDF), standardized as ISO 32000, is a file format developed by Adobe in 1993"
+    }
+  },
+  {
+    "id": "c-023",
+    "category": "Everyday",
+    "difficulty": "challenging",
+    "question": "Which day of the week is named after the Germanic thunder god known in Norse myth as Thor?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tuesday"
+      },
+      {
+        "id": "b",
+        "text": "Wednesday"
+      },
+      {
+        "id": "c",
+        "text": "Thursday"
+      },
+      {
+        "id": "d",
+        "text": "Friday"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "In Spanish, French and Italian the same day honours Jupiter, the Roman god of sky and thunder: jueves, jeudi, giovedì.",
+    "source": "https://en.wikipedia.org/wiki/Thursday",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "In most Romance languages, the day is named after the Roman god Jupiter, who was the god of sky and thunder."
+    }
+  },
+  {
+    "id": "c-024",
+    "category": "Everyday",
+    "difficulty": "challenging",
+    "question": "What does the 'QR' in QR code stand for?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Quick Read"
+      },
+      {
+        "id": "b",
+        "text": "Query Reference"
+      },
+      {
+        "id": "c",
+        "text": "Quality Record"
+      },
+      {
+        "id": "d",
+        "text": "Quick Response"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Japan's Denso Wave invented the code in 1994 to keep track of car parts in factories, long before it reached restaurant menus.",
+    "source": "https://en.wikipedia.org/wiki/QR_code",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "invented in 1994 by Masahiro Hara of the Japanese company Denso Wave for labelling automobile parts."
+    }
+  }
+]

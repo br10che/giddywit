@@ -1,0 +1,770 @@
+[
+  {
+    "id": "x-001",
+    "category": "Geography",
+    "difficulty": "expert",
+    "question": "Which is the only country whose national flag is neither a rectangle nor a square?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Switzerland"
+      },
+      {
+        "id": "b",
+        "text": "Nepal"
+      },
+      {
+        "id": "c",
+        "text": "Bhutan"
+      },
+      {
+        "id": "d",
+        "text": "Vatican City"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Nepal's flag joins two stacked pennants once used by rival branches of its ruling dynasty, and it is the only national flag taller than it is wide.",
+    "source": "https://en.wikipedia.org/wiki/Flag_of_Nepal",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "It is the only non-rectangular/square national flag in the world and the only one that is taller than it is wide."
+    }
+  },
+  {
+    "id": "x-002",
+    "category": "Geography",
+    "difficulty": "expert",
+    "question": "Which major river is the only one to cross the equator twice?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Amazon"
+      },
+      {
+        "id": "b",
+        "text": "Nile"
+      },
+      {
+        "id": "c",
+        "text": "Niger"
+      },
+      {
+        "id": "d",
+        "text": "Congo"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "The Congo is also the world's deepest recorded river, with measured depths of around 220 m (720 ft).",
+    "source": "https://en.wikipedia.org/wiki/Congo_River",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "It is the only major river to cross the equator twice."
+    }
+  },
+  {
+    "id": "x-003",
+    "category": "Geography",
+    "difficulty": "expert",
+    "question": "Which is the only named sea with no land boundaries at all?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Coral Sea"
+      },
+      {
+        "id": "b",
+        "text": "Labrador Sea"
+      },
+      {
+        "id": "c",
+        "text": "Ligurian Sea"
+      },
+      {
+        "id": "d",
+        "text": "Sargasso Sea"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Instead it is bounded by four ocean currents forming a gyre, and mature eels migrate back there to spawn.",
+    "source": "https://en.wikipedia.org/wiki/Sargasso_Sea",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "It is the only named sea without land boundaries."
+    }
+  },
+  {
+    "id": "x-004",
+    "category": "Science",
+    "difficulty": "expert",
+    "question": "On which planet does one full rotation take longer than a whole orbit of the Sun?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Mercury"
+      },
+      {
+        "id": "b",
+        "text": "Mars"
+      },
+      {
+        "id": "c",
+        "text": "Venus"
+      },
+      {
+        "id": "d",
+        "text": "Neptune"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Venus also spins backwards compared with Earth, so there the Sun would rise in the west and set in the east.",
+    "source": "https://science.nasa.gov/venus/venus-facts/",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "your “day” would be 243 Earth days long — longer even than a Venus year"
+    }
+  },
+  {
+    "id": "x-005",
+    "category": "Science",
+    "difficulty": "expert",
+    "question": "Yttrium, terbium, erbium and ytterbium are all named after a village in which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Norway"
+      },
+      {
+        "id": "b",
+        "text": "Sweden"
+      },
+      {
+        "id": "c",
+        "text": "Finland"
+      },
+      {
+        "id": "d",
+        "text": "Germany"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "All four honour Ytterby, whose mine has been called the single richest source of elemental discoveries in the world.",
+    "source": "https://en.wikipedia.org/wiki/Ytterby",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the chemical elements yttrium (Y), terbium (Tb), erbium (Er), and ytterbium (Yb) are all named after Ytterby"
+    }
+  },
+  {
+    "id": "x-006",
+    "category": "Science",
+    "difficulty": "expert",
+    "question": "Bananas are very slightly radioactive because of a natural isotope of which element?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Magnesium"
+      },
+      {
+        "id": "b",
+        "text": "Iron"
+      },
+      {
+        "id": "c",
+        "text": "Zinc"
+      },
+      {
+        "id": "d",
+        "text": "Potassium"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "A truckload of bananas can even trigger a false alarm on the radiation detectors at ports.",
+    "source": "https://en.wikipedia.org/wiki/Banana_equivalent_dose",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "A banana contains naturally occurring radioactive material in the form of potassium-40."
+    }
+  },
+  {
+    "id": "x-007",
+    "category": "History",
+    "difficulty": "expert",
+    "question": "Which civilisation kept records with quipu — cords of coloured, knotted string?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Aztec"
+      },
+      {
+        "id": "b",
+        "text": "Maya"
+      },
+      {
+        "id": "c",
+        "text": "Inca"
+      },
+      {
+        "id": "d",
+        "text": "Olmec"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The knots stored numbers in a base-10 positional system, and specialist record keepers tied and read them.",
+    "source": "https://en.wikipedia.org/wiki/Quipu",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "used knots tied in a decimal positional system to store numbers"
+    }
+  },
+  {
+    "id": "x-008",
+    "category": "History",
+    "difficulty": "expert",
+    "question": "Which conflict is considered the shortest recorded war in history?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Football War"
+      },
+      {
+        "id": "b",
+        "text": "Anglo-Zanzibar War"
+      },
+      {
+        "id": "c",
+        "text": "Pastry War"
+      },
+      {
+        "id": "d",
+        "text": "War of the Golden Stool"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Fought between Britain and the Sultanate of Zanzibar, it lasted somewhere between 38 and 45 minutes — sources disagree on exactly when it began and ended.",
+    "source": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The conflict lasted between 38 and 45 minutes, marking it as the shortest recorded war in history."
+    }
+  },
+  {
+    "id": "x-009",
+    "category": "History",
+    "difficulty": "expert",
+    "question": "Ötzi the Iceman, a prehistoric natural mummy, was discovered in 1991 in which mountain range?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Alps"
+      },
+      {
+        "id": "b",
+        "text": "Pyrenees"
+      },
+      {
+        "id": "c",
+        "text": "Carpathians"
+      },
+      {
+        "id": "d",
+        "text": "Apennines"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "He lay in the Ötztal Alps near the Austria–Italy border, and his preserved skin bears a total of 61 tattoos.",
+    "source": "https://en.wikipedia.org/wiki/%C3%96tzi",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Ötzi's remains were discovered on 19 September 1991 in the Ötztal Alps ... Ötzi had a total of 61 tattoos."
+    }
+  },
+  {
+    "id": "x-010",
+    "category": "Nature",
+    "difficulty": "expert",
+    "question": "What colour is the blood of a horseshoe crab?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Green"
+      },
+      {
+        "id": "b",
+        "text": "Bright blue"
+      },
+      {
+        "id": "c",
+        "text": "Milky white"
+      },
+      {
+        "id": "d",
+        "text": "Yellow"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Copper-based hemocyanin makes it blue, and the blood is used to make a test that detects bacterial toxins in medicines.",
+    "source": "https://en.wikipedia.org/wiki/Horseshoe_crab",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "hemocyanin, which gives the blood \"a bright blue color.\" ... used for the detection of bacterial endotoxins in medical applications"
+    }
+  },
+  {
+    "id": "x-011",
+    "category": "Nature",
+    "difficulty": "expert",
+    "question": "Which animal is famous for producing cube-shaped droppings?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wombat"
+      },
+      {
+        "id": "b",
+        "text": "Koala"
+      },
+      {
+        "id": "c",
+        "text": "Sloth"
+      },
+      {
+        "id": "d",
+        "text": "Capybara"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Wombats arrange their cubes to mark territory, and the flat sides are thought to stop them rolling away.",
+    "source": "https://en.wikipedia.org/wiki/Wombat",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "it is believed that the cubic shape makes them more stackable and less likely to roll"
+    }
+  },
+  {
+    "id": "x-012",
+    "category": "Nature",
+    "difficulty": "expert",
+    "question": "Why is the jellyfish Turritopsis dohrnii nicknamed the 'immortal jellyfish'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It never stops growing"
+      },
+      {
+        "id": "b",
+        "text": "It can survive being frozen"
+      },
+      {
+        "id": "c",
+        "text": "It can turn back into a juvenile polyp"
+      },
+      {
+        "id": "d",
+        "text": "It regrows from a single cell"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "In practice most are still eaten or die of disease — and adults are tiny, only about 4.5 mm across.",
+    "source": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "it can revert to the polyp stage, forming a new polyp colony."
+    }
+  },
+  {
+    "id": "x-013",
+    "category": "Literature",
+    "difficulty": "expert",
+    "question": "Which writer coined the word 'serendipity'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Samuel Johnson"
+      },
+      {
+        "id": "b",
+        "text": "Horace Walpole"
+      },
+      {
+        "id": "c",
+        "text": "Jonathan Swift"
+      },
+      {
+        "id": "d",
+        "text": "Lewis Carroll"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "He took it from a Persian fairy tale, The Three Princes of Serendip — Serendip being an old name for Sri Lanka.",
+    "source": "https://en.wikipedia.org/wiki/Serendipity",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The term was coined by Horace Walpole in 1754"
+    }
+  },
+  {
+    "id": "x-014",
+    "category": "Literature",
+    "difficulty": "expert",
+    "question": "Aldous Huxley's novel 'Brave New World' takes its title from which Shakespeare play?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hamlet"
+      },
+      {
+        "id": "b",
+        "text": "King Lear"
+      },
+      {
+        "id": "c",
+        "text": "A Midsummer Night's Dream"
+      },
+      {
+        "id": "d",
+        "text": "The Tempest"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "The words are Miranda's: \"O brave new world, that has such people in't!\" — spoken in Act V of the play.",
+    "source": "https://en.wikipedia.org/wiki/Brave_New_World",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The title Brave New World derives from William Shakespeare's The Tempest, Act V, Scene I, Miranda's speech"
+    }
+  },
+  {
+    "id": "x-015",
+    "category": "Art & Music",
+    "difficulty": "expert",
+    "question": "Which blue pigment, ground from lapis lazuli, was at times valued as highly as gold?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Prussian blue"
+      },
+      {
+        "id": "b",
+        "text": "Cobalt blue"
+      },
+      {
+        "id": "c",
+        "text": "Ultramarine"
+      },
+      {
+        "id": "d",
+        "text": "Indigo"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Its name means 'beyond the sea', and Renaissance painters often saved it for the robes of the Virgin Mary.",
+    "source": "https://en.wikipedia.org/wiki/Ultramarine",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "at times valued as highly as gold in Europe"
+    }
+  },
+  {
+    "id": "x-016",
+    "category": "Art & Music",
+    "difficulty": "expert",
+    "question": "Who painted the surreal triptych 'The Garden of Earthly Delights'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hieronymus Bosch"
+      },
+      {
+        "id": "b",
+        "text": "Pieter Bruegel the Elder"
+      },
+      {
+        "id": "c",
+        "text": "Jan van Eyck"
+      },
+      {
+        "id": "d",
+        "text": "Albrecht Dürer"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The Early Netherlandish masterpiece has hung in the Museo del Prado in Madrid since 1939.",
+    "source": "https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "painted by the Early Netherlandish master Hieronymus Bosch ... It has been housed in the Museo del Prado in Madrid, Spain since 1939."
+    }
+  },
+  {
+    "id": "x-017",
+    "category": "Art & Music",
+    "difficulty": "expert",
+    "question": "What do the performers do in John Cage's famous piece 4′33″?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hold a single note throughout"
+      },
+      {
+        "id": "b",
+        "text": "Don't play their instruments"
+      },
+      {
+        "id": "c",
+        "text": "Improvise on any instrument"
+      },
+      {
+        "id": "d",
+        "text": "Play the score backwards"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Cage was inspired by a soundproof room where he still heard sounds — the 'music' is the ambient noise of the audience and hall.",
+    "source": "https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the score instructs performers not to play their instruments throughout the three movements."
+    }
+  },
+  {
+    "id": "x-018",
+    "category": "Food & Drink",
+    "difficulty": "expert",
+    "question": "Nutmeg and which other spice come from the same fruit?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Allspice"
+      },
+      {
+        "id": "b",
+        "text": "Cloves"
+      },
+      {
+        "id": "c",
+        "text": "Cardamom"
+      },
+      {
+        "id": "d",
+        "text": "Mace"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Nutmeg is the seed and mace is the lacy red covering around it; the tree is native to Indonesia's Spice Islands.",
+    "source": "https://en.wikipedia.org/wiki/Mace_(spice)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Mace is the spice made from the reddish seed covering (aril) of the nutmeg seed."
+    }
+  },
+  {
+    "id": "x-019",
+    "category": "Food & Drink",
+    "difficulty": "expert",
+    "question": "Tonic water glows under ultraviolet light thanks to which ingredient?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Caffeine"
+      },
+      {
+        "id": "b",
+        "text": "Citric acid"
+      },
+      {
+        "id": "c",
+        "text": "Quinine"
+      },
+      {
+        "id": "d",
+        "text": "Sodium benzoate"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Quinine comes from cinchona bark, and tonic water was originally drunk as a guard against malaria.",
+    "source": "https://en.wikipedia.org/wiki/Tonic_water",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The quinine in tonic water will fluoresce under ultraviolet light."
+    }
+  },
+  {
+    "id": "x-020",
+    "category": "Sport",
+    "difficulty": "expert",
+    "question": "The marathon's odd distance of 42.195 km was taken from the course of which Olympic Games?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Athens 1896"
+      },
+      {
+        "id": "b",
+        "text": "Paris 1900"
+      },
+      {
+        "id": "c",
+        "text": "London 1908"
+      },
+      {
+        "id": "d",
+        "text": "Stockholm 1912"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "That course ran from Windsor Castle to the Royal Box in the White City Stadium, and its length became the official standard in 1921.",
+    "source": "https://en.wikipedia.org/wiki/Marathon",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "directly from the length used at the 1908 Summer Olympics in London"
+    }
+  },
+  {
+    "id": "x-021",
+    "category": "Sport",
+    "difficulty": "expert",
+    "question": "What do sumo wrestlers ritually toss into the ring to purify it?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Rice"
+      },
+      {
+        "id": "b",
+        "text": "Salt"
+      },
+      {
+        "id": "c",
+        "text": "Sand"
+      },
+      {
+        "id": "d",
+        "text": "Flower petals"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The salt symbolically cleanses the ring — one of many sumo rituals that come from Japan's Shinto religion.",
+    "source": "https://en.wikipedia.org/wiki/Sumo",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the tossing of salt into the ring by the wrestlers, which serves as a symbolic cleansing of the ring"
+    }
+  },
+  {
+    "id": "x-022",
+    "category": "Everyday",
+    "difficulty": "expert",
+    "question": "What is the name of the vertical groove between the nose and the upper lip?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Glabella"
+      },
+      {
+        "id": "b",
+        "text": "Philtrum"
+      },
+      {
+        "id": "c",
+        "text": "Columella"
+      },
+      {
+        "id": "d",
+        "text": "Lunula"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Its name comes from the Ancient Greek 'philtron', meaning 'love charm'.",
+    "source": "https://en.wikipedia.org/wiki/Philtrum",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a vertical indentation in the middle area of the upper lip, common to therian mammals"
+    }
+  },
+  {
+    "id": "x-023",
+    "category": "Everyday",
+    "difficulty": "expert",
+    "question": "Which name for the # symbol was coined by telephone engineers in the 1960s?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pilcrow"
+      },
+      {
+        "id": "b",
+        "text": "Octothorpe"
+      },
+      {
+        "id": "c",
+        "text": "Asterism"
+      },
+      {
+        "id": "d",
+        "text": "Interrobang"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Engineers needed names for the two new keys being added to push-button telephone keypads, so they invented a word for it.",
+    "source": "https://en.wikipedia.org/wiki/Number_sign",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "invented by workers at the Bell Telephone Laboratories by 1968"
+    }
+  },
+  {
+    "id": "x-024",
+    "category": "Everyday",
+    "difficulty": "expert",
+    "question": "The £ sign is a stylised letter L, short for which Latin word?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lucrum"
+      },
+      {
+        "id": "b",
+        "text": "Lira"
+      },
+      {
+        "id": "c",
+        "text": "Libertas"
+      },
+      {
+        "id": "d",
+        "text": "Libra"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Libra pondo was the Roman pound, a unit of weight — and 'libra' itself means scales or a balance.",
+    "source": "https://en.wikipedia.org/wiki/Pound_sign",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "derives from the upper case Latin letter L, representing libra pondo"
+    }
+  }
+]

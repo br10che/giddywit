@@ -1,0 +1,770 @@
+[
+  {
+    "id": "m-001",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Mount Kilimanjaro, Africa's highest peak, lies in which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Kenya"
+      },
+      {
+        "id": "b",
+        "text": "Tanzania"
+      },
+      {
+        "id": "c",
+        "text": "Uganda"
+      },
+      {
+        "id": "d",
+        "text": "Ethiopia"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Kilimanjaro is a dormant volcano and the highest free-standing mountain above sea level in the world.",
+    "source": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is a large dormant stratovolcano in Tanzania. ... It is the highest mountain in Africa"
+    }
+  },
+  {
+    "id": "m-002",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which is the longest river in Europe?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Danube"
+      },
+      {
+        "id": "b",
+        "text": "Rhine"
+      },
+      {
+        "id": "c",
+        "text": "Volga"
+      },
+      {
+        "id": "d",
+        "text": "Dnieper"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The Volga runs about 3,530 km through Russia and never reaches an ocean: it empties into the landlocked Caspian Sea.",
+    "source": "https://en.wikipedia.org/wiki/Volga",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is the longest river in Europe ... It discharges into the Caspian Sea below Astrakhan"
+    }
+  },
+  {
+    "id": "m-003",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the capital city of Canada?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Toronto"
+      },
+      {
+        "id": "b",
+        "text": "Montreal"
+      },
+      {
+        "id": "c",
+        "text": "Vancouver"
+      },
+      {
+        "id": "d",
+        "text": "Ottawa"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Queen Victoria herself chose Ottawa as Canada's capital, with the choice taking effect at the end of 1857.",
+    "source": "https://en.wikipedia.org/wiki/Ottawa",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Queen sent a letter to colonial authorities selecting Ottawa as the capital, effective 31 December 1857."
+    }
+  },
+  {
+    "id": "m-004",
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "What is the chemical symbol for sodium?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Na"
+      },
+      {
+        "id": "b",
+        "text": "So"
+      },
+      {
+        "id": "c",
+        "text": "Sd"
+      },
+      {
+        "id": "d",
+        "text": "S"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "'Na' comes from the Latin name natrium, which refers to natron, a natural mineral salt known since ancient Egypt.",
+    "source": "https://en.wikipedia.org/wiki/Sodium",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is an abbreviation of the element's Neo-Latin name natrium, which refers to the Egyptian natron"
+    }
+  },
+  {
+    "id": "m-005",
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "Which part of a cell is nicknamed the ‘powerhouse of the cell’?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nucleus"
+      },
+      {
+        "id": "b",
+        "text": "Ribosome"
+      },
+      {
+        "id": "c",
+        "text": "Mitochondrion"
+      },
+      {
+        "id": "d",
+        "text": "Golgi apparatus"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Mitochondria make most of a cell’s chemical energy — and, unusually, they carry their own small genome separate from the DNA in the nucleus.",
+    "source": "https://en.wikipedia.org/wiki/Mitochondrion",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The mitochondrion is popularly nicknamed the \"powerhouse of the cell\" ... the mitochondrion has its own genome"
+    }
+  },
+  {
+    "id": "m-006",
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "Which gas makes up most of Earth's atmosphere?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Oxygen"
+      },
+      {
+        "id": "b",
+        "text": "Carbon dioxide"
+      },
+      {
+        "id": "c",
+        "text": "Nitrogen"
+      },
+      {
+        "id": "d",
+        "text": "Argon"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Nitrogen is about 78% of dry air; even argon, at nearly 1%, is over 20 times more plentiful than carbon dioxide.",
+    "source": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "dry air contains 78.08% nitrogen, 20.95% oxygen, 0.93% argon, 0.04% carbon dioxide"
+    }
+  },
+  {
+    "id": "m-007",
+    "category": "History",
+    "difficulty": "medium",
+    "question": "Which city was called Constantinople for around 1,600 years before officially taking its modern name?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Athens"
+      },
+      {
+        "id": "b",
+        "text": "Ankara"
+      },
+      {
+        "id": "c",
+        "text": "Istanbul"
+      },
+      {
+        "id": "d",
+        "text": "Thessaloniki"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It began as the Greek colony of Byzantium, then was named after Roman emperor Constantine the Great, who refounded it in AD 324.",
+    "source": "https://en.wikipedia.org/wiki/Istanbul",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The name Constantinople, which remained in use for 1600 years, was officially changed as İstanbul on 28 March 1930."
+    }
+  },
+  {
+    "id": "m-008",
+    "category": "History",
+    "difficulty": "medium",
+    "question": "Which civilisation built Machu Picchu in the Andes of Peru?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Inca"
+      },
+      {
+        "id": "b",
+        "text": "Aztec"
+      },
+      {
+        "id": "c",
+        "text": "Maya"
+      },
+      {
+        "id": "d",
+        "text": "Olmec"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The 15th-century citadel was little known to outsiders until American historian Hiram Bingham publicised it in 1911.",
+    "source": "https://en.wikipedia.org/wiki/Machu_Picchu",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Machu Picchu is a 15th-century Inca citadel ... it was brought to international attention in 1911 by the American historian Hiram Bingham III"
+    }
+  },
+  {
+    "id": "m-009",
+    "category": "History",
+    "difficulty": "medium",
+    "question": "Which English king sealed Magna Carta in 1215?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Henry VIII"
+      },
+      {
+        "id": "b",
+        "text": "King John"
+      },
+      {
+        "id": "c",
+        "text": "Richard I"
+      },
+      {
+        "id": "d",
+        "text": "Edward I"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "It failed at first: Pope Innocent III annulled the charter, and England slid into the First Barons' War.",
+    "source": "https://en.wikipedia.org/wiki/Magna_Carta",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "sealed by King John of England at Runnymede, near Windsor, on 15 June 1215 ... annulled by Pope Innocent III, leading to the First Barons' War"
+    }
+  },
+  {
+    "id": "m-010",
+    "category": "Nature",
+    "difficulty": "medium",
+    "question": "How many hearts does an octopus have?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "One"
+      },
+      {
+        "id": "b",
+        "text": "Two"
+      },
+      {
+        "id": "c",
+        "text": "Three"
+      },
+      {
+        "id": "d",
+        "text": "Eight"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "One heart pumps blood round the body and two serve the gills; the blood is blue thanks to copper-rich haemocyanin.",
+    "source": "https://en.wikipedia.org/wiki/Octopus",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "They have three hearts; a systemic or main heart that circulates blood around the body"
+    }
+  },
+  {
+    "id": "m-011",
+    "category": "Nature",
+    "difficulty": "medium",
+    "question": "Which is the only mammal capable of true, sustained flight?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Flying squirrel"
+      },
+      {
+        "id": "b",
+        "text": "Sugar glider"
+      },
+      {
+        "id": "c",
+        "text": "Colugo"
+      },
+      {
+        "id": "d",
+        "text": "Bat"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Bats are hugely successful: about one in five known mammal species is a bat.",
+    "source": "https://en.wikipedia.org/wiki/Bat",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the only mammals capable of true and sustained flight"
+    }
+  },
+  {
+    "id": "m-012",
+    "category": "Nature",
+    "difficulty": "medium",
+    "question": "What is the largest living species of bird?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Emu"
+      },
+      {
+        "id": "b",
+        "text": "Wandering albatross"
+      },
+      {
+        "id": "c",
+        "text": "Southern cassowary"
+      },
+      {
+        "id": "d",
+        "text": "Common ostrich"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "It can’t fly, but an ostrich can sprint at over 70 km/h — the fastest land speed of any two-legged animal.",
+    "source": "https://en.wikipedia.org/wiki/Common_ostrich",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The common ostrich is the tallest and heaviest living bird. ... Common ostriches can run at a speed over 70 km/h (43 mph)"
+    }
+  },
+  {
+    "id": "m-013",
+    "category": "Literature",
+    "difficulty": "medium",
+    "question": "Who wrote 'One Hundred Years of Solitude'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Jorge Luis Borges"
+      },
+      {
+        "id": "b",
+        "text": "Gabriel García Márquez"
+      },
+      {
+        "id": "c",
+        "text": "Pablo Neruda"
+      },
+      {
+        "id": "d",
+        "text": "Mario Vargas Llosa"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The novel follows seven generations of the Buendía family in Macondo, a fictional town founded by its patriarch.",
+    "source": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a 1967 novel by Colombian author Gabriel García Márquez ... tells the story of seven generations of the Buendía family in the town of Macondo"
+    }
+  },
+  {
+    "id": "m-014",
+    "category": "Literature",
+    "difficulty": "medium",
+    "question": "In which Italian city is Shakespeare's 'Romeo and Juliet' set?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Venice"
+      },
+      {
+        "id": "b",
+        "text": "Florence"
+      },
+      {
+        "id": "c",
+        "text": "Verona"
+      },
+      {
+        "id": "d",
+        "text": "Padua"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The play opens with a 14-line prologue written as a sonnet and spoken by a Chorus, giving away the tragic ending.",
+    "source": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The play, set in Verona, Italy, begins with a street brawl"
+    }
+  },
+  {
+    "id": "m-015",
+    "category": "Literature",
+    "difficulty": "medium",
+    "question": "Who wrote the novel 'Pride and Prejudice'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Charlotte Brontë"
+      },
+      {
+        "id": "b",
+        "text": "Mary Shelley"
+      },
+      {
+        "id": "c",
+        "text": "George Eliot"
+      },
+      {
+        "id": "d",
+        "text": "Jane Austen"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Austen's working title was 'First Impressions', and she wrote that first version between October 1796 and August 1797.",
+    "source": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "It was originally titled First Impressions, and was written between October 1796 and August 1797."
+    }
+  },
+  {
+    "id": "m-016",
+    "category": "Art & Music",
+    "difficulty": "medium",
+    "question": "Who painted 'The Starry Night'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "b",
+        "text": "Claude Monet"
+      },
+      {
+        "id": "c",
+        "text": "Paul Gauguin"
+      },
+      {
+        "id": "d",
+        "text": "Paul Cézanne"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "It shows the view from his asylum window at Saint-Rémy-de-Provence, though the village in the painting is imaginary.",
+    "source": "https://en.wikipedia.org/wiki/The_Starry_Night",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence"
+    }
+  },
+  {
+    "id": "m-017",
+    "category": "Art & Music",
+    "difficulty": "medium",
+    "question": "Which composer was almost completely deaf when he wrote his Ninth Symphony?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Mozart"
+      },
+      {
+        "id": "b",
+        "text": "Beethoven"
+      },
+      {
+        "id": "c",
+        "text": "Haydn"
+      },
+      {
+        "id": "d",
+        "text": "Brahms"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "At the premiere he could not hear the ovation, so a singer gently turned him round to see the audience applauding.",
+    "source": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the contralto Caroline Unger walked over and gently turned Beethoven around to accept the audience's cheers and applause"
+    }
+  },
+  {
+    "id": "m-018",
+    "category": "Food & Drink",
+    "difficulty": "medium",
+    "question": "Feta, the crumbly white cheese kept in brine, traditionally comes from which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Greece"
+      },
+      {
+        "id": "b",
+        "text": "Italy"
+      },
+      {
+        "id": "c",
+        "text": "Turkey"
+      },
+      {
+        "id": "d",
+        "text": "France"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "It's made from sheep's milk or a sheep-and-goat mix, and it holds EU protected designation of origin status.",
+    "source": "https://en.wikipedia.org/wiki/Feta",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is a Greek white brined cheese made from sheep's milk or from a mixture of sheep and goat's milk"
+    }
+  },
+  {
+    "id": "m-019",
+    "category": "Food & Drink",
+    "difficulty": "medium",
+    "question": "Marzipan is made mainly from sugar and which ground nut?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hazelnuts"
+      },
+      {
+        "id": "b",
+        "text": "Almonds"
+      },
+      {
+        "id": "c",
+        "text": "Pistachios"
+      },
+      {
+        "id": "d",
+        "text": "Walnuts"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "A cheaper look-alike called persipan swaps the almonds for apricot or peach kernels.",
+    "source": "https://en.wikipedia.org/wiki/Marzipan",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "consisting primarily of sugar and almond meal (ground almonds)"
+    }
+  },
+  {
+    "id": "m-020",
+    "category": "Sport",
+    "difficulty": "medium",
+    "question": "In tennis, what word is used for a score of zero?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Love"
+      },
+      {
+        "id": "b",
+        "text": "Nil"
+      },
+      {
+        "id": "c",
+        "text": "Duck"
+      },
+      {
+        "id": "d",
+        "text": "Blank"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "One theory links 'love' to the French l'œuf ('the egg'), as an egg looks like a zero — though 'playing for love' is likelier.",
+    "source": "https://en.wikipedia.org/wiki/Tennis_scoring_system",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Another explanation is that it derives from the French expression for \"the egg\" (l'œuf) because an egg looks like the number zero."
+    }
+  },
+  {
+    "id": "m-021",
+    "category": "Sport",
+    "difficulty": "medium",
+    "question": "Which country hosted the first modern Olympic Games in 1896?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "France"
+      },
+      {
+        "id": "b",
+        "text": "Greece"
+      },
+      {
+        "id": "c",
+        "text": "United Kingdom"
+      },
+      {
+        "id": "d",
+        "text": "United States"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The main venue in Athens was the Panathenaic Stadium, an ancient stadium refurbished in marble for the Games.",
+    "source": "https://en.wikipedia.org/wiki/1896_Summer_Olympics",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the event was held in Athens, Greece, from 6 to 15 April 1896. ... The main venue was the Panathenaic Stadium"
+    }
+  },
+  {
+    "id": "m-022",
+    "category": "Everyday",
+    "difficulty": "medium",
+    "question": "What do you call a word that reads the same backwards, like 'level'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Anagram"
+      },
+      {
+        "id": "b",
+        "text": "Acronym"
+      },
+      {
+        "id": "c",
+        "text": "Palindrome"
+      },
+      {
+        "id": "d",
+        "text": "Homophone"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The word comes from Greek palin ('again') and dromos ('way'); a classic example is 'A man, a plan, a canal – Panama'.",
+    "source": "https://en.wikipedia.org/wiki/Palindrome",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards"
+    }
+  },
+  {
+    "id": "m-023",
+    "category": "Everyday",
+    "difficulty": "medium",
+    "question": "On a standard six-sided die, what do opposite faces always add up to?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Six"
+      },
+      {
+        "id": "b",
+        "text": "Eight"
+      },
+      {
+        "id": "c",
+        "text": "Ten"
+      },
+      {
+        "id": "d",
+        "text": "Seven"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "The rule is ancient: dice found at Mohenjo-daro in the Indus Valley already had opposite sides adding up to seven.",
+    "source": "https://en.wikipedia.org/wiki/Dice",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Opposite sides of a modern die traditionally add up to seven"
+    }
+  },
+  {
+    "id": "m-024",
+    "category": "Everyday",
+    "difficulty": "medium",
+    "question": "What is the most widely used paper size for printing worldwide?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A4"
+      },
+      {
+        "id": "b",
+        "text": "US Letter"
+      },
+      {
+        "id": "c",
+        "text": "A3"
+      },
+      {
+        "id": "d",
+        "text": "B5"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "A-series sheets have a √2 aspect ratio, so folding one in half gives the next size down with the same shape; A0 is 1 m².",
+    "source": "https://en.wikipedia.org/wiki/ISO_216",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the most commonly available paper size worldwide"
+    }
+  }
+]
