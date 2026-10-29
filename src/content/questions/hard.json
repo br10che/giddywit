@@ -766,5 +766,261 @@
       "checkedOn": "2026-10-29",
       "evidence": "a small sheath, often made of plastic or metal, attached at each end of a shoelace, a cord, or a drawstring."
     }
+  },
+  {
+    "id": "h-025",
+    "category": "Geography",
+    "difficulty": "hard",
+    "question": "Which country is completely surrounded by South Africa?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Eswatini"
+      },
+      {
+        "id": "b",
+        "text": "Botswana"
+      },
+      {
+        "id": "c",
+        "text": "Namibia"
+      },
+      {
+        "id": "d",
+        "text": "Lesotho"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "It is the only independent country in the world that lies entirely above 1,000 metres in elevation.",
+    "source": "https://en.wikipedia.org/wiki/Lesotho",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Surrounded by South Africa, it is the largest of the three sovereign, non-exclave enclaves in the world. ... the only independent state in the world that lies entirely above 1,000 metres"
+    }
+  },
+  {
+    "id": "h-026",
+    "category": "Geography",
+    "difficulty": "hard",
+    "question": "Angel Falls, the world's tallest uninterrupted waterfall, is in which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Brazil"
+      },
+      {
+        "id": "b",
+        "text": "Venezuela"
+      },
+      {
+        "id": "c",
+        "text": "Colombia"
+      },
+      {
+        "id": "d",
+        "text": "Guyana"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "It plunges off the flat-topped Auyán-tepui mountain and is named after Jimmie Angel, the US aviator who first flew over it.",
+    "source": "https://en.wikipedia.org/wiki/Angel_Falls",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is a waterfall in Venezuela. It is the world's tallest uninterrupted waterfall ... named after Jimmie Angel, a U.S. aviator, who was the first person to fly over the falls"
+    }
+  },
+  {
+    "id": "h-027",
+    "category": "Geography",
+    "difficulty": "hard",
+    "question": "The shores of which body of water are the lowest point on dry land on Earth?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lake Assal"
+      },
+      {
+        "id": "b",
+        "text": "Caspian Sea"
+      },
+      {
+        "id": "c",
+        "text": "Dead Sea"
+      },
+      {
+        "id": "d",
+        "text": "Death Valley"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Its water is about 9.6 times as salty as the ocean, so dense that swimmers simply float on the surface.",
+    "source": "https://en.wikipedia.org/wiki/Dead_Sea",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "making its shores the lowest land-based elevation on Earth ... 9.6 times as salty as the ocean"
+    }
+  },
+  {
+    "id": "h-028",
+    "category": "Art & Music",
+    "difficulty": "hard",
+    "question": "Which Dutch master painted 'The Night Watch', now in Amsterdam's Rijksmuseum?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Johannes Vermeer"
+      },
+      {
+        "id": "b",
+        "text": "Frans Hals"
+      },
+      {
+        "id": "c",
+        "text": "Peter Paul Rubens"
+      },
+      {
+        "id": "d",
+        "text": "Rembrandt"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "It isn't a night scene at all: a dark varnish wrongly made it look like one, giving it the name it is known by today.",
+    "source": "https://en.wikipedia.org/wiki/The_Night_Watch",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the painting was coated with a dark varnish, which gave the incorrect impression that it depicted a night scene"
+    }
+  },
+  {
+    "id": "h-029",
+    "category": "Art & Music",
+    "difficulty": "hard",
+    "question": "Mexican painter Frida Kahlo married which famous muralist?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Diego Rivera"
+      },
+      {
+        "id": "b",
+        "text": "José Clemente Orozco"
+      },
+      {
+        "id": "c",
+        "text": "David Alfaro Siqueiros"
+      },
+      {
+        "id": "d",
+        "text": "Rufino Tamayo"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "They wed in 1929, and because he was so much bigger than her, her parents called it a 'marriage between an elephant and a dove'.",
+    "source": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Kahlo and Rivera were married in a civil ceremony at the town hall of Coyoacán on 21 August 1929 ... marriage between an elephant and a dove"
+    }
+  },
+  {
+    "id": "h-030",
+    "category": "Art & Music",
+    "difficulty": "hard",
+    "question": "Which composer wrote 'Boléro', where one snare-drum rhythm repeats over a single long crescendo?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Claude Debussy"
+      },
+      {
+        "id": "b",
+        "text": "Maurice Ravel"
+      },
+      {
+        "id": "c",
+        "text": "Erik Satie"
+      },
+      {
+        "id": "d",
+        "text": "Georges Bizet"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Ravel himself was modest about his hit, describing it as 'orchestral tissue without music'.",
+    "source": "https://en.wikipedia.org/wiki/Bol%C3%A9ro",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Boléro is a 1928 work for large orchestra by French composer Maurice Ravel ... \"orchestral tissue without music\"—of one very long, gradual crescendo."
+    }
+  },
+  {
+    "id": "h-031",
+    "category": "Literature",
+    "difficulty": "hard",
+    "question": "In Mary Shelley's novel, who or what is 'Frankenstein'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The creature"
+      },
+      {
+        "id": "b",
+        "text": "The scientist"
+      },
+      {
+        "id": "c",
+        "text": "The creature's village"
+      },
+      {
+        "id": "d",
+        "text": "The scientist's assistant"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Victor Frankenstein is the scientist; the book began when Lord Byron challenged his guests at a villa on Lake Geneva to each write a ghost story.",
+    "source": "https://en.wikipedia.org/wiki/Frankenstein",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "a young scientist who creates a sapient creature ... visited Lord Byron at the Villa Diodati by Lake Geneva ... Byron proposed that they \"each write a ghost story.\""
+    }
+  },
+  {
+    "id": "h-032",
+    "category": "Literature",
+    "difficulty": "hard",
+    "question": "'The Tale of Genji', often called the first novel, is credited to which Japanese court lady?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sei Shōnagon"
+      },
+      {
+        "id": "b",
+        "text": "Ono no Komachi"
+      },
+      {
+        "id": "c",
+        "text": "Murasaki Shikibu"
+      },
+      {
+        "id": "d",
+        "text": "Izumi Shikibu"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Murasaki Shikibu was a lady-in-waiting at the imperial court, and she wrote it in the early 11th century, at the height of Japan's Heian period.",
+    "source": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "said to have been written by the noblewoman, poet, and lady-in-waiting Murasaki Shikibu ... around the peak of the Heian period, in the early 11th century"
+    }
   }
 ]

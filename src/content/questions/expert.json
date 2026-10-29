@@ -766,5 +766,261 @@
       "checkedOn": "2026-10-29",
       "evidence": "derives from the upper case Latin letter L, representing libra pondo"
     }
+  },
+  {
+    "id": "x-025",
+    "category": "Geography",
+    "difficulty": "expert",
+    "question": "Monrovia is the capital city of which African country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sierra Leone"
+      },
+      {
+        "id": "b",
+        "text": "Ghana"
+      },
+      {
+        "id": "c",
+        "text": "Liberia"
+      },
+      {
+        "id": "d",
+        "text": "Gabon"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It was named after US President James Monroe, making it one of only two world capitals, with Washington, D.C., named after an American president.",
+    "source": "https://en.wikipedia.org/wiki/Monrovia",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Monrovia is the capital and largest city of the African country of Liberia. ... renamed Monrovia after James Monroe ... one of two world capitals to be named after an American president."
+    }
+  },
+  {
+    "id": "x-026",
+    "category": "Geography",
+    "difficulty": "expert",
+    "question": "Which country splits its capital between three cities, one each for government, parliament and courts?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bolivia"
+      },
+      {
+        "id": "b",
+        "text": "Malaysia"
+      },
+      {
+        "id": "c",
+        "text": "Netherlands"
+      },
+      {
+        "id": "d",
+        "text": "South Africa"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Pretoria is the administrative capital, Cape Town hosts Parliament, and Bloemfontein is the judicial capital.",
+    "source": "https://en.wikipedia.org/wiki/South_Africa",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Pretoria is the administrative capital, while Cape Town, as the seat of Parliament, is the legislative capital, and Bloemfontein is regarded as the judicial capital."
+    }
+  },
+  {
+    "id": "x-027",
+    "category": "Geography",
+    "difficulty": "expert",
+    "question": "Which is the deepest lake in the world?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lake Tanganyika"
+      },
+      {
+        "id": "b",
+        "text": "Lake Baikal"
+      },
+      {
+        "id": "c",
+        "text": "Lake Superior"
+      },
+      {
+        "id": "d",
+        "text": "Caspian Sea"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Siberia's Baikal is also the world's oldest lake, at roughly 25–30 million years, and holds 22–23% of the world's fresh surface water.",
+    "source": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "the deepest lake in the world ... the world's oldest lake ... 22–23% of the world's fresh surface water"
+    }
+  },
+  {
+    "id": "x-028",
+    "category": "Art & Music",
+    "difficulty": "expert",
+    "question": "In Velázquez's 'Las Meninas', who appear reflected in the mirror on the back wall?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The painter and his wife"
+      },
+      {
+        "id": "b",
+        "text": "The king and queen of Spain"
+      },
+      {
+        "id": "c",
+        "text": "The young Infanta's tutors"
+      },
+      {
+        "id": "d",
+        "text": "The Pope and a cardinal"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "They are Philip IV and Queen Mariana, while Velázquez paints himself standing at a huge canvas; the work hangs in the Prado in Madrid.",
+    "source": "https://en.wikipedia.org/wiki/Las_Meninas",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The mirror in the background reflects the upper bodies of the king and queen. ... Just behind them, Velázquez portrays himself working at a large canvas."
+    }
+  },
+  {
+    "id": "x-029",
+    "category": "Art & Music",
+    "difficulty": "expert",
+    "question": "Which composer's ballet 'The Rite of Spring' caused uproar at its 1913 Paris premiere?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sergei Rachmaninoff"
+      },
+      {
+        "id": "b",
+        "text": "Claude Debussy"
+      },
+      {
+        "id": "c",
+        "text": "Sergei Prokofiev"
+      },
+      {
+        "id": "d",
+        "text": "Igor Stravinsky"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Many call the first night a riot. Nijinsky's original choreography was long believed lost until the Joffrey Ballet reconstructed it.",
+    "source": "https://en.wikipedia.org/wiki/The_Rite_of_Spring",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Many have called the first-night reaction a \"riot\" or \"near-riot\". ... Nijinsky's original choreography, long believed lost, was reconstructed by the Joffrey Ballet"
+    }
+  },
+  {
+    "id": "x-030",
+    "category": "Art & Music",
+    "difficulty": "expert",
+    "question": "Which Japanese artist made the woodblock print 'The Great Wave off Kanagawa'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Utagawa Hiroshige"
+      },
+      {
+        "id": "b",
+        "text": "Katsushika Hokusai"
+      },
+      {
+        "id": "c",
+        "text": "Kitagawa Utamaro"
+      },
+      {
+        "id": "d",
+        "text": "Utagawa Kuniyoshi"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "It is the first print in his series 'Thirty-six Views of Mount Fuji', and the snow-capped mountain sits small in the background.",
+    "source": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The print is Hokusai's best-known work and the first in his series Thirty-six Views of Mount Fuji ... In the background is Mount Fuji and its snow-capped summit"
+    }
+  },
+  {
+    "id": "x-031",
+    "category": "Literature",
+    "difficulty": "expert",
+    "question": "'Lewis Carroll', author of 'Alice's Adventures in Wonderland', was the pen name of whom?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Charles Lutwidge Dodgson"
+      },
+      {
+        "id": "b",
+        "text": "Charles Kingsley"
+      },
+      {
+        "id": "c",
+        "text": "Edward Lear"
+      },
+      {
+        "id": "d",
+        "text": "George MacDonald"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Dodgson was a mathematician who held the Christ Church Mathematical Lectureship at Oxford for 26 years.",
+    "source": "https://en.wikipedia.org/wiki/Lewis_Carroll",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Charles Lutwidge Dodgson (27 January 1832 – 14 January 1898), better known by his pen name Lewis Carroll ... won him the Christ Church Mathematical Lectureship in 1855"
+    }
+  },
+  {
+    "id": "x-032",
+    "category": "Literature",
+    "difficulty": "expert",
+    "question": "In Dante's 'Divine Comedy', who guides Dante through Hell?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Homer"
+      },
+      {
+        "id": "b",
+        "text": "Beatrice"
+      },
+      {
+        "id": "c",
+        "text": "Ovid"
+      },
+      {
+        "id": "d",
+        "text": "Virgil"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "The Roman poet leads him through Hell and Purgatory, then Beatrice, Dante's ideal woman, guides him through Heaven.",
+    "source": "https://en.wikipedia.org/wiki/Divine_Comedy",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Roman poet Virgil guides him through Hell and Purgatory; Beatrice, Dante's ideal woman, guides him through Heaven."
+    }
   }
 ]

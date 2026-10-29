@@ -71,12 +71,12 @@ Questions live in `src/content/questions/<difficulty>.json`, separate from the c
 3. Run `npm run validate`. It catches duplicate ids, duplicate choices, missing or invalid answers, bad difficulty values and missing sources, and warns about overlong text.
 4. Bump `CONTENT_VERSION` in `src/content/bank.ts`.
 
-**The starter bank** has 120 questions, 24 per difficulty, across geography, science, history, nature, literature, art & music, food & drink, sport and everyday knowledge. All 120 were checked on 2026-10-29 by fetching the cited source page; the quote that supports each answer is stored in `verification.evidence`. Difficulty levels are editorial estimates, not measured player data. A few questions got judgement calls: for example, "the shortest recorded war" relies on the commonly cited Anglo-Zanzibar War.
+**The starter bank** has 160 questions, 32 per difficulty, across geography, science, history, nature, literature, art & music, food & drink, sport and everyday knowledge. All 160 were checked on 2026-10-29 by fetching the cited source page; the quote that supports each answer is stored in `verification.evidence`. Difficulty levels are editorial estimates, not measured player data. A few questions got judgement calls: for example, "the shortest recorded war" relies on the commonly cited Anglo-Zanzibar War.
 
 ## How the daily challenge works
 
 - The day is the **UTC** date, so everyone gets the new ride at **midnight UTC**.
-- Each difficulty's pool is shuffled using a seed made from `CONTENT_VERSION` and a "cycle" number. Each day takes the next slice, so a question doesn't repeat until its whole pool has been used (about 12 days with 24 per level). Answer order is also shuffled from a seed, and the correct-answer ids never change. Everyone gets the same questions in the same order.
+- Each difficulty's pool is shuffled using a seed made from `CONTENT_VERSION` and a "cycle" number. Each day takes the next slice, so a question doesn't repeat until its whole pool has been used (about 16 days with 32 per level). Answer order is also shuffled from a seed, and the correct-answer ids never change. Everyone gets the same questions in the same order.
 - Changing `CONTENT_VERSION` reshuffles future days. Games already in progress keep the exact questions and answer order they were saved with.
 - Progress is saved after every answer, before any animation runs. Refreshing brings back the same question, feedback and score, and an answer can never count twice.
 - A finished daily opens its results instead of a new attempt. If midnight passes mid-game, you finish the ride you started, and then today's ride is offered.
@@ -86,7 +86,7 @@ Questions live in `src/content/questions/<difficulty>.json`, separate from the c
 
 - **Local only.** Progress, results, best scores, streak and settings live in this browser's `localStorage`. A different device, another browser, private mode or clearing site data starts fresh. If storage is blocked, the game still works and shows a notice that progress won't be kept.
 - **Scores can be edited.** Anyone can edit localStorage or read the questions in the page's JavaScript. That's fine for a personal game. There is no leaderboard, and the game doesn't pretend there is.
-- **Small bank.** With 24 questions per level, daily questions start repeating after about 12 days. Add questions (and bump `CONTENT_VERSION`) to stretch that.
+- **Small bank.** With 32 questions per level, daily questions start repeating after about 16 days. Add questions (and bump `CONTENT_VERSION`) to stretch that.
 - Fonts load from Google Fonts. Without them it falls back to system fonts.
 
 ## Project layout

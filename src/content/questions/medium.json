@@ -766,5 +766,261 @@
       "checkedOn": "2026-10-29",
       "evidence": "the most commonly available paper size worldwide"
     }
+  },
+  {
+    "id": "m-025",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the capital city of Brazil?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Rio de Janeiro"
+      },
+      {
+        "id": "b",
+        "text": "São Paulo"
+      },
+      {
+        "id": "c",
+        "text": "Brasília"
+      },
+      {
+        "id": "d",
+        "text": "Salvador"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Built from scratch to replace Rio as capital in 1960, the planned city's layout is often likened to an airplane or a bird.",
+    "source": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "founded by President Juscelino Kubitschek on 21 April 1960, to replace Rio de Janeiro as the national capital ... often likened to a dragonfly, an airplane or a bird"
+    }
+  },
+  {
+    "id": "m-026",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which mountain range forms much of the border between France and Spain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pyrenees"
+      },
+      {
+        "id": "b",
+        "text": "Alps"
+      },
+      {
+        "id": "c",
+        "text": "Apennines"
+      },
+      {
+        "id": "d",
+        "text": "Carpathians"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The tiny independent principality of Andorra is tucked into the eastern Pyrenees, sandwiched between the two countries.",
+    "source": "https://en.wikipedia.org/wiki/Pyrenees",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The main crest mostly forms a political divide between the states of Spain and France ... The independent principality of Andorra is sandwiched in the eastern portion of the mountain range"
+    }
+  },
+  {
+    "id": "m-027",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the capital city of Iceland?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Akureyri"
+      },
+      {
+        "id": "b",
+        "text": "Oslo"
+      },
+      {
+        "id": "c",
+        "text": "Helsinki"
+      },
+      {
+        "id": "d",
+        "text": "Reykjavík"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "It is the world's northernmost capital of a sovereign state, and its name comes from the Old Norse for 'smoky bay'.",
+    "source": "https://en.wikipedia.org/wiki/Reykjav%C3%ADk",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Reykjavík is the capital and largest city of Iceland ... the world's northernmost capital of a sovereign state ... derived from the roots reykr ('smoke') and vík ('bay')"
+    }
+  },
+  {
+    "id": "m-028",
+    "category": "Art & Music",
+    "difficulty": "medium",
+    "question": "Which composer wrote the opera 'The Magic Flute'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Joseph Haydn"
+      },
+      {
+        "id": "b",
+        "text": "Franz Schubert"
+      },
+      {
+        "id": "c",
+        "text": "Wolfgang Amadeus Mozart"
+      },
+      {
+        "id": "d",
+        "text": "Giuseppe Verdi"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It premiered in Vienna on 30 September 1791 — just two months before Mozart died.",
+    "source": "https://en.wikipedia.org/wiki/The_Magic_Flute",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "an opera in two acts by Wolfgang Amadeus Mozart ... The work premiered on 30 September 1791 at Schikaneder's theatre ... just two months before Mozart's death."
+    }
+  },
+  {
+    "id": "m-029",
+    "category": "Art & Music",
+    "difficulty": "medium",
+    "question": "Who painted 'The Birth of Venus', showing the goddess standing on a giant scallop shell?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Raphael"
+      },
+      {
+        "id": "b",
+        "text": "Sandro Botticelli"
+      },
+      {
+        "id": "c",
+        "text": "Titian"
+      },
+      {
+        "id": "d",
+        "text": "Michelangelo"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "It hangs in the Uffizi Gallery in Florence and was painted on two pieces of canvas sewn together, not on a wooden panel.",
+    "source": "https://en.wikipedia.org/wiki/The_Birth_of_Venus",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "stands nude in a giant scallop shell ... The painting is in the Uffizi Gallery in Florence, Italy. ... The painting is on two pieces of canvas, sewn together before starting."
+    }
+  },
+  {
+    "id": "m-030",
+    "category": "Art & Music",
+    "difficulty": "medium",
+    "question": "Which artist painted 'Guernica', a protest against the bombing of a Basque town in 1937?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "b",
+        "text": "Joan Miró"
+      },
+      {
+        "id": "c",
+        "text": "Francisco Goya"
+      },
+      {
+        "id": "d",
+        "text": "Pablo Picasso"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "He painted it at his home in Paris using only grey, black and white, and it now hangs in the Museo Reina Sofía in Madrid.",
+    "source": "https://en.wikipedia.org/wiki/Guernica_(Picasso)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Picasso painted Guernica at his home in Paris in response to the 26 April 1937 bombing of Guernica ... The grey, black, and white painting"
+    }
+  },
+  {
+    "id": "m-031",
+    "category": "Literature",
+    "difficulty": "medium",
+    "question": "Which Russian author wrote 'War and Peace'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Leo Tolstoy"
+      },
+      {
+        "id": "b",
+        "text": "Fyodor Dostoevsky"
+      },
+      {
+        "id": "c",
+        "text": "Anton Chekhov"
+      },
+      {
+        "id": "d",
+        "text": "Ivan Turgenev"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Set during Napoleon's invasion of Russia, the novel is mainly in Russian, but large stretches of its dialogue are written in French.",
+    "source": "https://en.wikipedia.org/wiki/War_and_Peace",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Although the book is mainly in Russian, significant portions of dialogue are in French."
+    }
+  },
+  {
+    "id": "m-032",
+    "category": "Literature",
+    "difficulty": "medium",
+    "question": "Who wrote the novel 'Les Misérables'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Alexandre Dumas"
+      },
+      {
+        "id": "b",
+        "text": "Émile Zola"
+      },
+      {
+        "id": "c",
+        "text": "Victor Hugo"
+      },
+      {
+        "id": "d",
+        "text": "Honoré de Balzac"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Its hero, Jean Valjean, was first convicted for stealing a loaf of bread to feed his sister's starving children and spent 19 years in prison.",
+    "source": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "just released from 19 years' imprisonment in the Bagne of Toulon ... Convicted for stealing a loaf of bread to feed his sister's seven starving children."
+    }
   }
 ]

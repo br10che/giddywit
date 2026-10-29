@@ -766,5 +766,261 @@
       "checkedOn": "2026-10-29",
       "evidence": "The usual traffic light colors are red to stop traffic ... In December 1868, the first traffic signals ... were installed outside the Houses of Parliament ... This system exploded on 2 January 1869"
     }
+  },
+  {
+    "id": "e-025",
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "Which is the largest ocean on Earth?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Atlantic Ocean"
+      },
+      {
+        "id": "b",
+        "text": "Pacific Ocean"
+      },
+      {
+        "id": "c",
+        "text": "Indian Ocean"
+      },
+      {
+        "id": "d",
+        "text": "Arctic Ocean"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Ferdinand Magellan named it Mar Pacífico, the 'peaceful sea', because his expedition found calm water there after stormy seas.",
+    "source": "https://en.wikipedia.org/wiki/Pacific_Ocean",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Pacific Ocean is the largest and deepest of Earth's five oceanic divisions. ... called it Mar Pacífico, which in Portuguese and Spanish means 'peaceful sea'."
+    }
+  },
+  {
+    "id": "e-026",
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "What is the highest mountain on Earth above sea level?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "K2"
+      },
+      {
+        "id": "b",
+        "text": "Mont Blanc"
+      },
+      {
+        "id": "c",
+        "text": "Denali"
+      },
+      {
+        "id": "d",
+        "text": "Mount Everest"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "British surveyors named it after Sir George Everest, a former Surveyor General of India; in Tibetan it is called Chomolungma.",
+    "source": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "is the highest mountain on Earth above sea level ... named after British surveyor Sir George Everest ... The Tibetan name is also popularly romanised as Chomolungma."
+    }
+  },
+  {
+    "id": "e-027",
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "Which great river flows north through Egypt into the Mediterranean Sea?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nile"
+      },
+      {
+        "id": "b",
+        "text": "Amazon"
+      },
+      {
+        "id": "c",
+        "text": "Niger"
+      },
+      {
+        "id": "d",
+        "text": "Zambezi"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Its two main branches, the White Nile and the Blue Nile, meet at Khartoum, the capital of Sudan.",
+    "source": "https://en.wikipedia.org/wiki/Nile",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. ... The two rivers meet at the Sudanese capital, Khartoum."
+    }
+  },
+  {
+    "id": "e-028",
+    "category": "Art & Music",
+    "difficulty": "easy",
+    "question": "Which artist painted the ceiling of the Sistine Chapel in Vatican City?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Raphael"
+      },
+      {
+        "id": "b",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "c",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "d",
+        "text": "Caravaggio"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "He spent about four years on it, painting the vast ceiling in fresco between 1508 and 1512.",
+    "source": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "painted in fresco by Michelangelo between 1508 and 1512"
+    }
+  },
+  {
+    "id": "e-029",
+    "category": "Art & Music",
+    "difficulty": "easy",
+    "question": "In which English city were the Beatles formed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "London"
+      },
+      {
+        "id": "b",
+        "text": "Manchester"
+      },
+      {
+        "id": "c",
+        "text": "Birmingham"
+      },
+      {
+        "id": "d",
+        "text": "Liverpool"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "The band formed there in 1960, and they met their future manager Brian Epstein at one of their frequent gigs at the city's Cavern Club.",
+    "source": "https://en.wikipedia.org/wiki/The_Beatles",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Beatles were an English rock band formed in Liverpool in 1960. ... during one of the group's frequent performances at the Cavern Club, they encountered Brian Epstein"
+    }
+  },
+  {
+    "id": "e-030",
+    "category": "Art & Music",
+    "difficulty": "easy",
+    "question": "Which famous Edvard Munch painting shows a figure clutching its face under a blood-red sky?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Scream"
+      },
+      {
+        "id": "b",
+        "text": "The Kiss"
+      },
+      {
+        "id": "c",
+        "text": "The Sick Child"
+      },
+      {
+        "id": "d",
+        "text": "Madonna"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Its Norwegian title is 'Skrik', and Munch made four versions of it, two in paint and two in pastels.",
+    "source": "https://en.wikipedia.org/wiki/The_Scream",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Norwegian name of the piece is Skrik ('Scream') ... Munch created four versions, two in paint and two in pastels."
+    }
+  },
+  {
+    "id": "e-031",
+    "category": "Literature",
+    "difficulty": "easy",
+    "question": "Who wrote the Harry Potter books?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Roald Dahl"
+      },
+      {
+        "id": "b",
+        "text": "C. S. Lewis"
+      },
+      {
+        "id": "c",
+        "text": "J. K. Rowling"
+      },
+      {
+        "id": "d",
+        "text": "Philip Pullman"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The first book came out in the UK in 1997 as 'Philosopher's Stone', but American readers got it as 'Harry Potter and the Sorcerer's Stone'.",
+    "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Harry Potter and the Philosopher's Stone is a fantasy novel by British author J. K. Rowling. The book was first published in the United Kingdom on 26 June 1997 by Bloomsbury."
+    }
+  },
+  {
+    "id": "e-032",
+    "category": "Literature",
+    "difficulty": "easy",
+    "question": "Which wooden puppet's nose grows longer every time he tells a lie?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pinocchio"
+      },
+      {
+        "id": "b",
+        "text": "Geppetto"
+      },
+      {
+        "id": "c",
+        "text": "Peter Pan"
+      },
+      {
+        "id": "d",
+        "text": "Hansel"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Italian author Carlo Collodi first published the story in instalments in a children's magazine between 1881 and 1883.",
+    "source": "https://en.wikipedia.org/wiki/The_Adventures_of_Pinocchio",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Italian author Carlo Collodi ... between 7 July 1881 and 25 January 1883 ... As he lies, his nose grows."
+    }
   }
 ]

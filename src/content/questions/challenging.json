@@ -766,5 +766,261 @@
       "checkedOn": "2026-10-29",
       "evidence": "invented in 1994 by Masahiro Hara of the Japanese company Denso Wave for labelling automobile parts."
     }
+  },
+  {
+    "id": "c-025",
+    "category": "Geography",
+    "difficulty": "challenging",
+    "question": "Which strait separates Asia from North America?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Strait of Magellan"
+      },
+      {
+        "id": "b",
+        "text": "Bering Strait"
+      },
+      {
+        "id": "c",
+        "text": "Strait of Malacca"
+      },
+      {
+        "id": "d",
+        "text": "Davis Strait"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "In the middle of the strait, Russia's Big Diomede and America's Little Diomede islands are only 3.8 km apart.",
+    "source": "https://en.wikipedia.org/wiki/Bering_Strait",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "separating the Chukchi Peninsula of the Russian Far East from the Seward Peninsula of Alaska ... Big Diomede (Russia) and Little Diomede (US)—are only 3.8 km (2.4 mi) apart"
+    }
+  },
+  {
+    "id": "c-026",
+    "category": "Geography",
+    "difficulty": "challenging",
+    "question": "Which river flows through Baghdad, the capital of Iraq?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Euphrates"
+      },
+      {
+        "id": "b",
+        "text": "Jordan"
+      },
+      {
+        "id": "c",
+        "text": "Tigris"
+      },
+      {
+        "id": "d",
+        "text": "Indus"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Further south it joins its twin river, the Euphrates, near al-Qurnah, and together they form a single waterway: the Shatt al-Arab.",
+    "source": "https://en.wikipedia.org/wiki/Tigris",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Tigris passes through historical cities such as Mosul, Tikrit, Samarra and Baghdad. ... the Tigris joins the Euphrates near al-Qurnah to form the Shatt-al-Arab."
+    }
+  },
+  {
+    "id": "c-027",
+    "category": "Geography",
+    "difficulty": "challenging",
+    "question": "Not counting Australia as a continent, which is the largest island in the world?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Greenland"
+      },
+      {
+        "id": "b",
+        "text": "New Guinea"
+      },
+      {
+        "id": "c",
+        "text": "Borneo"
+      },
+      {
+        "id": "d",
+        "text": "Madagascar"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Greenland is an autonomous territory of the Kingdom of Denmark, and an ice sheet covers about 81% of it.",
+    "source": "https://en.wikipedia.org/wiki/Greenland",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "Greenland is the world's largest non-continental island ... an autonomous territory of the Kingdom of Denmark ... the Greenland ice sheet covers 1,755,637 km2 (677,855 sq mi) (81%)"
+    }
+  },
+  {
+    "id": "c-028",
+    "category": "Art & Music",
+    "difficulty": "challenging",
+    "question": "Which composer wrote the music for the ballet 'Swan Lake'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Igor Stravinsky"
+      },
+      {
+        "id": "b",
+        "text": "Pyotr Ilyich Tchaikovsky"
+      },
+      {
+        "id": "c",
+        "text": "Sergei Prokofiev"
+      },
+      {
+        "id": "d",
+        "text": "Nikolai Rimsky-Korsakov"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Its 1877 premiere at Moscow's Bolshoi Theatre flopped: critics found the score too noisy and too symphonic for ballet.",
+    "source": "https://en.wikipedia.org/wiki/Swan_Lake",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The première was not well received ... too noisy, too 'Wagnerian' and too symphonic."
+    }
+  },
+  {
+    "id": "c-029",
+    "category": "Art & Music",
+    "difficulty": "challenging",
+    "question": "Which French sculptor created 'The Thinker'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Auguste Rodin"
+      },
+      {
+        "id": "b",
+        "text": "Camille Claudel"
+      },
+      {
+        "id": "c",
+        "text": "Edgar Degas"
+      },
+      {
+        "id": "d",
+        "text": "Antonio Canova"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The bronze figure began as one part of a bigger work: Rodin conceived it for 'The Gates of Hell', a commission he received in 1880.",
+    "source": "https://en.wikipedia.org/wiki/The_Thinker",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "The Thinker (French: Le Penseur), by Auguste Rodin ... Rodin conceived the figure as part of his work The Gates of Hell commissioned in 1880."
+    }
+  },
+  {
+    "id": "c-030",
+    "category": "Art & Music",
+    "difficulty": "challenging",
+    "question": "The Romantic composer Frédéric Chopin was from which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "France"
+      },
+      {
+        "id": "b",
+        "text": "Austria"
+      },
+      {
+        "id": "c",
+        "text": "Poland"
+      },
+      {
+        "id": "d",
+        "text": "Hungary"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "He died in Paris and is buried there, but at his request his sister took his heart home; it now rests in a pillar of Warsaw's Holy Cross Church.",
+    "source": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "was a Polish composer and virtuoso pianist ... In 1879 the heart was sealed within a pillar of the Holy Cross Church"
+    }
+  },
+  {
+    "id": "c-031",
+    "category": "Literature",
+    "difficulty": "challenging",
+    "question": "Who wrote 'Crime and Punishment', the novel about the student Raskolnikov?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Leo Tolstoy"
+      },
+      {
+        "id": "b",
+        "text": "Nikolai Gogol"
+      },
+      {
+        "id": "c",
+        "text": "Alexander Pushkin"
+      },
+      {
+        "id": "d",
+        "text": "Fyodor Dostoevsky"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Raskolnikov is an impoverished former law student in Saint Petersburg who plans to kill an unscrupulous pawnbroker for her money.",
+    "source": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "an impoverished former law student in Saint Petersburg who plans to kill an unscrupulous pawnbroker"
+    }
+  },
+  {
+    "id": "c-032",
+    "category": "Literature",
+    "difficulty": "challenging",
+    "question": "Which French writer and pilot wrote and illustrated 'The Little Prince'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Albert Camus"
+      },
+      {
+        "id": "b",
+        "text": "Antoine de Saint-Exupéry"
+      },
+      {
+        "id": "c",
+        "text": "Jules Verne"
+      },
+      {
+        "id": "d",
+        "text": "Jean-Paul Sartre"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The story's narrator is a pilot whose plane crashes in the Sahara, and the book was first published in the United States in 1943.",
+    "source": "https://en.wikipedia.org/wiki/The_Little_Prince",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-29",
+      "evidence": "written and illustrated by French writer and aviator Antoine de Saint-Exupéry ... first published in English and French in the United States by Reynal & Hitchcock in April 1943"
+    }
   }
 ]
