@@ -1,6 +1,7 @@
 /**
- * Tiny synthesised sound effects (no audio files). The AudioContext is only
- * created inside a user gesture, and nothing plays while sound is off.
+ * Tiny synthesised sound effects. The only audio file is the expert-answer
+ * "Yee-haw!" (public/sounds/yeehaw.wav). The AudioContext is only created
+ * inside a user gesture, and nothing plays while sound is off.
  */
 
 let ctx: AudioContext | null = null;
@@ -21,6 +22,7 @@ export function unlockAudio(): void {
       ctx = new AC();
     }
     if (ctx.state === 'suspended') void ctx.resume();
+    void loadYeehaw(); // ready well before the first expert question
   } catch {
     ctx = null;
   }
@@ -70,6 +72,39 @@ export function playCorrect(rideMs: number, delayMs: number): void {
   const start = t + delayMs / 1000;
   const beats = Math.floor(rideMs / 160);
   for (let i = 0; i < beats; i++) clop(start + i * 0.16, i % 2 ? 320 : 380);
+}
+
+const YEEHAW_URL = `${import.meta.env.BASE_URL}sounds/yeehaw.wav`;
+const YEEHAW_VOLUME = 0.45;
+let yeehaw: Promise<AudioBuffer | null> | null = null;
+
+/** Fetches and decodes the yee-haw clip once; later calls reuse it. */
+function loadYeehaw(): Promise<AudioBuffer | null> {
+  if (!yeehaw && ctx) {
+    const c = ctx;
+    yeehaw = fetch(YEEHAW_URL)
+      .then((r) => (r.ok ? r.arrayBuffer() : Promise.reject(new Error(String(r.status)))))
+      .then((data) => c.decodeAudioData(data))
+      .catch(() => {
+        yeehaw = null; // try again next time
+        return null;
+      });
+  }
+  return yeehaw ?? Promise.resolve(null);
+}
+
+/** The rider shouts "Yee-haw!" (a real recording), kept soft so it never startles. */
+export function playYeehaw(): void {
+  if (!ready()) return;
+  void loadYeehaw().then((buffer) => {
+    if (!buffer || !ready()) return;
+    const src = ctx!.createBufferSource();
+    const gain = ctx!.createGain();
+    src.buffer = buffer;
+    gain.gain.setValueAtTime(YEEHAW_VOLUME, ctx!.currentTime);
+    src.connect(gain).connect(ctx!.destination);
+    src.start();
+  });
 }
 
 export function playWrong(): void {

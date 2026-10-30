@@ -1022,5 +1022,325 @@
       "checkedOn": "2026-10-29",
       "evidence": "just released from 19 years' imprisonment in the Bagne of Toulon ... Convicted for stealing a loaf of bread to feed his sister's seven starving children."
     }
+  },
+  {
+    "id": "m-033",
+    "category": "Music",
+    "difficulty": "medium",
+    "question": "Which is the largest and lowest-pitched string instrument in a modern symphony orchestra?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cello"
+      },
+      {
+        "id": "b",
+        "text": "Viola"
+      },
+      {
+        "id": "c",
+        "text": "Double bass"
+      },
+      {
+        "id": "d",
+        "text": "Harp"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The double bass is so big that players usually stand or sit on a tall stool to play it.",
+    "source": "https://en.wikipedia.org/wiki/Double_bass",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "is the largest and lowest-pitched chordophone in the modern symphony orchestra"
+    }
+  },
+  {
+    "id": "m-034",
+    "category": "Music",
+    "difficulty": "medium",
+    "question": "In which country did the music genre reggae originate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cuba"
+      },
+      {
+        "id": "b",
+        "text": "Trinidad and Tobago"
+      },
+      {
+        "id": "c",
+        "text": "Jamaica"
+      },
+      {
+        "id": "d",
+        "text": "Brazil"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Reggae grew out of ska and rocksteady in Jamaica in the late 1960s.",
+    "source": "https://en.wikipedia.org/wiki/Reggae",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "is a music genre that originated in Jamaica in the late 1960s"
+    }
+  },
+  {
+    "id": "m-035",
+    "category": "Chemistry",
+    "difficulty": "medium",
+    "question": "Which Russian chemist created the periodic table of the elements in 1869?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Dmitri Mendeleev"
+      },
+      {
+        "id": "b",
+        "text": "Marie Curie"
+      },
+      {
+        "id": "c",
+        "text": "Antoine Lavoisier"
+      },
+      {
+        "id": "d",
+        "text": "Linus Pauling"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "He left gaps for undiscovered elements and correctly predicted the properties of gallium, germanium and scandium.",
+    "source": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "known for formulating the periodic law and creating a version of the periodic table of elements."
+    }
+  },
+  {
+    "id": "m-036",
+    "category": "Chemistry",
+    "difficulty": "medium",
+    "question": "Which metal is liquid at room temperature?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lead"
+      },
+      {
+        "id": "b",
+        "text": "Tin"
+      },
+      {
+        "id": "c",
+        "text": "Aluminium"
+      },
+      {
+        "id": "d",
+        "text": "Mercury"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Mercury is the only metallic element known to be liquid at standard temperature and pressure.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(element)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "mercury is the only metallic element that is known to be liquid at standard temperature and pressure."
+    }
+  },
+  {
+    "id": "m-037",
+    "category": "World Cultures",
+    "difficulty": "medium",
+    "question": "What is the hongi, a traditional Māori greeting in New Zealand?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pressing noses together"
+      },
+      {
+        "id": "b",
+        "text": "Bowing from the waist"
+      },
+      {
+        "id": "c",
+        "text": "Clapping three times"
+      },
+      {
+        "id": "d",
+        "text": "Touching palms to the chest"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The hongi is often accompanied by touching foreheads, sharing the breath of life.",
+    "source": "https://en.wikipedia.org/wiki/Hongi",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "A traditional Māori greeting performed by two people pressing their noses together."
+    }
+  },
+  {
+    "id": "m-038",
+    "category": "World Cultures",
+    "difficulty": "medium",
+    "question": "Nowruz, the Persian New Year, marks the beginning of which season in the Northern Hemisphere?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Autumn"
+      },
+      {
+        "id": "b",
+        "text": "Summer"
+      },
+      {
+        "id": "c",
+        "text": "Winter"
+      },
+      {
+        "id": "d",
+        "text": "Spring"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Nowruz falls on the spring equinox and has been celebrated for over 3,000 years across Iran and Central Asia.",
+    "source": "https://en.wikipedia.org/wiki/Nowruz",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "For the Northern Hemisphere, Nowruz marks the beginning of the spring season."
+    }
+  },
+  {
+    "id": "m-039",
+    "category": "War",
+    "difficulty": "medium",
+    "question": "Napoleon's rule as French emperor finally ended with defeat at which 1815 battle?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Austerlitz"
+      },
+      {
+        "id": "b",
+        "text": "Trafalgar"
+      },
+      {
+        "id": "c",
+        "text": "Waterloo"
+      },
+      {
+        "id": "d",
+        "text": "Borodino"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Waterloo, in present-day Belgium, was fought by Napoleon against Wellington's and Blücher's armies.",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "The French Imperial Army under the command of Napoleon I was defeated by two armies of the Seventh Coalition."
+    }
+  },
+  {
+    "id": "m-040",
+    "category": "War",
+    "difficulty": "medium",
+    "question": "Who won the Battle of Hastings in 1066?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Harold Godwinson"
+      },
+      {
+        "id": "b",
+        "text": "William of Normandy"
+      },
+      {
+        "id": "c",
+        "text": "Harald Hardrada"
+      },
+      {
+        "id": "d",
+        "text": "Edward the Confessor"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "William's Norman victory made him king of England and changed the country's language, law and nobility.",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Hastings",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "fought on 14 October 1066 between the Norman-French army of William, Duke of Normandy ... was a decisive Norman victory."
+    }
+  },
+  {
+    "id": "m-041",
+    "category": "History",
+    "difficulty": "medium",
+    "question": "Which German city was home to Johannes Gutenberg, who brought movable-type printing to Europe?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Mainz"
+      },
+      {
+        "id": "b",
+        "text": "Berlin"
+      },
+      {
+        "id": "c",
+        "text": "Hamburg"
+      },
+      {
+        "id": "d",
+        "text": "Munich"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Gutenberg's printing press, developed around 1450, produced the famous 42-line Bible.",
+    "source": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Johannes Gutenberg was born in Mainz (in modern-day Germany)."
+    }
+  },
+  {
+    "id": "m-042",
+    "category": "History",
+    "difficulty": "medium",
+    "question": "Which queen of Egypt had a son with Julius Caesar and three children with Mark Antony?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nefertiti"
+      },
+      {
+        "id": "b",
+        "text": "Hatshepsut"
+      },
+      {
+        "id": "c",
+        "text": "Nefertari"
+      },
+      {
+        "id": "d",
+        "text": "Cleopatra"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom before Egypt became a Roman province.",
+    "source": "https://en.wikipedia.org/wiki/Cleopatra",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Caesar maintained a private affair with Cleopatra which produced a son, Caesarion. Cleopatra and Antony had an affair which produced three children."
+    }
   }
 ]

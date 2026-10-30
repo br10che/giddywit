@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { MAX_SCORE, RIDE_DELAY_MS, rideDurationMs } from './config';
+import { MAX_SCORE, REAR_MS, RIDE_DELAY_MS, rideDurationMs } from './config';
 import { BANK } from './content/bank';
-import { playClick, playCorrect, playFinish, playWrong, setSoundEnabled, unlockAudio } from './audio/sound';
+import { playClick, playCorrect, playFinish, playYeehaw, playWrong, setSoundEnabled, unlockAudio } from './audio/sound';
 import type { QuestionBank } from './game/bank';
 import { utcDateKey } from './game/daily';
 import { currentStreak, newDailySession, resolveDaily } from './game/flow';
@@ -144,9 +144,12 @@ export default function App({ storage: injected, bank = BANK, clock = Date.now }
       setScreen({ name: 'play', session: next });
       const record = next.answers[next.answers.length - 1];
       unlockAudio();
-      if (record.correct) playCorrect(rideDurationMs(record.points), RIDE_DELAY_MS);
+      // Expert answers get a celebration: the horse rears up and the rider shouts "Yee-haw!" before riding off.
+      const rear = record.correct && bank.byId.get(record.questionId)?.difficulty === 'expert';
+      if (rear) playYeehaw();
+      if (record.correct) playCorrect(rideDurationMs(record.points), RIDE_DELAY_MS + (rear ? REAR_MS : 0));
       else playWrong();
-      setEvent({ type: record.correct ? 'correct' : 'wrong', id: ++eventId.current });
+      setEvent({ type: record.correct ? 'correct' : 'wrong', rear, id: ++eventId.current });
     },
     [current, bank, clock, storage],
   );

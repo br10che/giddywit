@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 // Keep in sync with DIFFICULTIES / QUESTION_SCHEDULE in src/config.ts.
 export const DIFFICULTIES = ['easy', 'medium', 'challenging', 'hard', 'expert'];
 export const PER_GAME = { easy: 2, medium: 2, challenging: 2, hard: 2, expert: 2 };
-export const CATEGORIES = ['Geography', 'Science', 'History', 'Nature', 'Literature', 'Art & Music', 'Food & Drink', 'Sport', 'Everyday'];
+export const CATEGORIES = ['Geography', 'Science', 'History', 'Nature', 'Literature', 'Art & Music', 'Food & Drink', 'Sport', 'Everyday', 'Music', 'Chemistry', 'World Cultures', 'War'];
 
 const nonEmpty = (v) => typeof v === 'string' && v.trim().length > 0;
 const norm = (s) => String(s).trim().toLowerCase().replace(/\s+/g, ' ');

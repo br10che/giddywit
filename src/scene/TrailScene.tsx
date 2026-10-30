@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { MAX_SCORE, RIDE_DELAY_MS, rideDurationMs } from '../config';
+import { MAX_SCORE, REAR_MS, RIDE_DELAY_MS, rideDurationMs } from '../config';
 import { Ambient } from './ambient';
 import {
   drawFar, drawForeground, drawGround, drawHaze, drawMid, drawNearBack, drawRiderOutlined, drawRoadside, drawSky, drawUnderground,
@@ -9,6 +9,8 @@ import { TRAIL_PX } from './world';
 
 export interface SceneEvent {
   type: 'correct' | 'wrong';
+  /** Expert answer: the horse rears up before riding. */
+  rear?: boolean;
   id: number;
 }
 
@@ -46,6 +48,7 @@ export function TrailScene({ points, event, roadY, riderX, reducedMotion, snapKe
     initialised: false,
     cheerAt: -1,
     oopsAt: -1,
+    rearAt: -1,
     phase: 0,
     clock: 0,
     layout: null as (Layout & { scale: number }) | null,
@@ -78,8 +81,13 @@ export function TrailScene({ points, event, roadY, riderX, reducedMotion, snapKe
     if (!event || event.id === state.current.lastEventId) return;
     state.current.lastEventId = event.id;
     const now = performance.now();
-    if (event.type === 'correct') state.current.cheerAt = now + RIDE_DELAY_MS * 0.4;
-    else state.current.oopsAt = now;
+    const s = state.current;
+    if (event.type === 'correct' && event.rear && !reducedMotion) {
+      s.rearAt = now;
+      s.cheerAt = now + 150;
+      if (s.ride) s.ride.start = now + RIDE_DELAY_MS + REAR_MS;
+    } else if (event.type === 'correct') s.cheerAt = now + RIDE_DELAY_MS * 0.4;
+    else s.oopsAt = now;
     drawRef.current(now);
     if (reducedMotion) {
       const timer = window.setTimeout(() => drawRef.current(performance.now()), 1500);
@@ -146,11 +154,13 @@ export function TrailScene({ points, event, roadY, riderX, reducedMotion, snapKe
         moving,
         cheer: s.cheerAt >= 0 && now >= s.cheerAt ? (now - s.cheerAt) / 1000 : -1,
         oops: s.oopsAt >= 0 ? (now - s.oopsAt) / 1000 : -1,
+        rear: s.rearAt >= 0 ? (now - s.rearAt) / 1000 : -1,
         clock: s.clock,
         still,
       };
       if (pose.cheer > 2) s.cheerAt = -1;
       if (pose.oops > 2) s.oopsAt = -1;
+      if (pose.rear > REAR_MS / 1000) s.rearAt = -1;
 
       drawSky(frame);
       if (!still) ambient.current.drawSky(frame);

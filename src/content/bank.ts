@@ -11,7 +11,7 @@ import expert from './questions/expert.json';
  * It seeds daily selection, so a new version reshuffles future days.
  * Games already in progress keep their own saved questions.
  */
-export const CONTENT_VERSION = '2026-10-29.2';
+export const CONTENT_VERSION = '2026-10-30.1';
 
 export const ALL_QUESTIONS = [...easy, ...medium, ...challenging, ...hard, ...expert] as Question[];
 

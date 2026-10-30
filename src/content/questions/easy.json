@@ -1022,5 +1022,325 @@
       "checkedOn": "2026-10-29",
       "evidence": "Italian author Carlo Collodi ... between 7 July 1881 and 25 January 1883 ... As he lies, his nose grows."
     }
+  },
+  {
+    "id": "e-033",
+    "category": "Music",
+    "difficulty": "easy",
+    "question": "Which singer released the 1982 album 'Thriller'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Prince"
+      },
+      {
+        "id": "b",
+        "text": "Stevie Wonder"
+      },
+      {
+        "id": "c",
+        "text": "Michael Jackson"
+      },
+      {
+        "id": "d",
+        "text": "Lionel Richie"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It was produced by Quincy Jones, who had also produced Jackson's previous album, Off the Wall.",
+    "source": "https://en.wikipedia.org/wiki/Thriller_(album)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Thriller is the sixth studio album by the American singer Michael Jackson. It was released on November 29, 1982 ... It was produced by Quincy Jones, who produced Jackson's previous album, Off the Wall (1979)."
+    }
+  },
+  {
+    "id": "e-034",
+    "category": "Music",
+    "difficulty": "easy",
+    "question": "Which rock band's lead singer Freddie Mercury wrote 'Bohemian Rhapsody'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Rolling Stones"
+      },
+      {
+        "id": "b",
+        "text": "Queen"
+      },
+      {
+        "id": "c",
+        "text": "Led Zeppelin"
+      },
+      {
+        "id": "d",
+        "text": "Pink Floyd"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Mercury called the song a 'mock opera' made by joining three songs he had written.",
+    "source": "https://en.wikipedia.org/wiki/Bohemian_Rhapsody",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Written by the band's lead singer, Freddie Mercury, he referred to 'Bohemian Rhapsody' as a 'mock opera'"
+    }
+  },
+  {
+    "id": "e-035",
+    "category": "Chemistry",
+    "difficulty": "easy",
+    "question": "Which element has the atomic number 1?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Helium"
+      },
+      {
+        "id": "b",
+        "text": "Hydrogen"
+      },
+      {
+        "id": "c",
+        "text": "Oxygen"
+      },
+      {
+        "id": "d",
+        "text": "Carbon"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Hydrogen is the lightest element and makes up about 75% of all normal matter in the universe.",
+    "source": "https://en.wikipedia.org/wiki/Hydrogen",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Hydrogen is a chemical element; it has the symbol H and atomic number 1."
+    }
+  },
+  {
+    "id": "e-036",
+    "category": "Chemistry",
+    "difficulty": "easy",
+    "question": "What is the chemical symbol for gold?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ag"
+      },
+      {
+        "id": "b",
+        "text": "Gd"
+      },
+      {
+        "id": "c",
+        "text": "Au"
+      },
+      {
+        "id": "d",
+        "text": "Go"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Au comes from the Latin word aurum, meaning gold.",
+    "source": "https://en.wikipedia.org/wiki/Gold",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Gold is a chemical element; its chemical symbol is Au (from Latin aurum) and atomic number 79."
+    }
+  },
+  {
+    "id": "e-037",
+    "category": "World Cultures",
+    "difficulty": "easy",
+    "question": "Diwali, celebrated by millions of Hindus, Jains and Sikhs, is widely known as the festival of what?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Colours"
+      },
+      {
+        "id": "b",
+        "text": "Lights"
+      },
+      {
+        "id": "c",
+        "text": "Harvest"
+      },
+      {
+        "id": "d",
+        "text": "Kites"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Rows of oil lamps called diyas are lit to symbolise light triumphing over darkness.",
+    "source": "https://en.wikipedia.org/wiki/Diwali",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Diwali is the Hindu festival of lights, with variations celebrated in other Indian religions such as Jainism and Sikhism."
+    }
+  },
+  {
+    "id": "e-038",
+    "category": "World Cultures",
+    "difficulty": "easy",
+    "question": "In which country is the Day of the Dead (Día de Muertos) most widely observed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Spain"
+      },
+      {
+        "id": "b",
+        "text": "Brazil"
+      },
+      {
+        "id": "c",
+        "text": "Mexico"
+      },
+      {
+        "id": "d",
+        "text": "Cuba"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Families build altars with marigolds, photos and favourite foods to welcome back the spirits of loved ones.",
+    "source": "https://en.wikipedia.org/wiki/Day_of_the_Dead",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "The festival is widely observed in Mexico and among people of Mexican heritage in other parts of the world."
+    }
+  },
+  {
+    "id": "e-039",
+    "category": "War",
+    "difficulty": "easy",
+    "question": "Which country launched the surprise attack on Pearl Harbor in December 1941?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Germany"
+      },
+      {
+        "id": "b",
+        "text": "Italy"
+      },
+      {
+        "id": "c",
+        "text": "Japan"
+      },
+      {
+        "id": "d",
+        "text": "China"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The attack on the US Pacific Fleet in Hawaii brought the United States into World War II.",
+    "source": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "The Empire of Japan launched a surprise military attack on the US Pacific Fleet at its naval base at Pearl Harbor."
+    }
+  },
+  {
+    "id": "e-040",
+    "category": "War",
+    "difficulty": "easy",
+    "question": "In which year did World War I begin?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1905"
+      },
+      {
+        "id": "b",
+        "text": "1914"
+      },
+      {
+        "id": "c",
+        "text": "1918"
+      },
+      {
+        "id": "d",
+        "text": "1939"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "It began in July 1914, a month after the assassination of Archduke Franz Ferdinand in Sarajevo.",
+    "source": "https://en.wikipedia.org/wiki/World_War_I",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "World War I, or the First World War (28 July 1914 – 11 November 1918), also known as the Great War"
+    }
+  },
+  {
+    "id": "e-041",
+    "category": "History",
+    "difficulty": "easy",
+    "question": "Who became the first Roman emperor in 27 BC?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Julius Caesar"
+      },
+      {
+        "id": "b",
+        "text": "Augustus"
+      },
+      {
+        "id": "c",
+        "text": "Nero"
+      },
+      {
+        "id": "d",
+        "text": "Constantine"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Born Octavian, Julius Caesar's adopted heir, he took the name Augustus and ruled until AD 14.",
+    "source": "https://en.wikipedia.org/wiki/Augustus",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "founder of the Roman Empire and the first Roman emperor from 27 BC until his death in AD 14"
+    }
+  },
+  {
+    "id": "e-042",
+    "category": "History",
+    "difficulty": "easy",
+    "question": "In 1492, which explorer sailing for Spain reached the Americas?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Marco Polo"
+      },
+      {
+        "id": "b",
+        "text": "Ferdinand Magellan"
+      },
+      {
+        "id": "c",
+        "text": "Christopher Columbus"
+      },
+      {
+        "id": "d",
+        "text": "James Cook"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Columbus sailed west hoping to find Asia, and instead reached islands in the Caribbean.",
+    "source": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "On his first voyage he reached the Americas."
+    }
   }
 ]

@@ -1022,5 +1022,325 @@
       "checkedOn": "2026-10-29",
       "evidence": "written and illustrated by French writer and aviator Antoine de Saint-Exupéry ... first published in English and French in the United States by Reynal & Hitchcock in April 1943"
     }
+  },
+  {
+    "id": "c-033",
+    "category": "Music",
+    "difficulty": "challenging",
+    "question": "Which English composer wrote the seven-movement orchestral suite 'The Planets'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Edward Elgar"
+      },
+      {
+        "id": "b",
+        "text": "Gustav Holst"
+      },
+      {
+        "id": "c",
+        "text": "Ralph Vaughan Williams"
+      },
+      {
+        "id": "d",
+        "text": "Benjamin Britten"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Holst's suite has a movement for each planet except Earth, and Pluto had not yet been discovered.",
+    "source": "https://en.wikipedia.org/wiki/The_Planets",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "is a seven-movement orchestral suite by the English composer Gustav Holst"
+    }
+  },
+  {
+    "id": "c-034",
+    "category": "Music",
+    "difficulty": "challenging",
+    "question": "The shamisen is a traditional instrument from which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "China"
+      },
+      {
+        "id": "b",
+        "text": "Korea"
+      },
+      {
+        "id": "c",
+        "text": "Vietnam"
+      },
+      {
+        "id": "d",
+        "text": "Japan"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "The three-stringed shamisen is plucked with a large plectrum called a bachi.",
+    "source": "https://en.wikipedia.org/wiki/Shamisen",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "is a three-stringed traditional Japanese musical instrument derived from the Chinese instrument sanxian"
+    }
+  },
+  {
+    "id": "c-035",
+    "category": "Chemistry",
+    "difficulty": "challenging",
+    "question": "The name of which element comes from the Greek word for 'pale green'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Chlorine"
+      },
+      {
+        "id": "b",
+        "text": "Fluorine"
+      },
+      {
+        "id": "c",
+        "text": "Iodine"
+      },
+      {
+        "id": "d",
+        "text": "Bromine"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Humphry Davy named chlorine after its greenish-yellow colour.",
+    "source": "https://en.wikipedia.org/wiki/Chlorine",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "named it after the Ancient Greek χλωρός (khlōrós, \"pale green\") because of its colour."
+    }
+  },
+  {
+    "id": "c-036",
+    "category": "Chemistry",
+    "difficulty": "challenging",
+    "question": "Marie Curie won the 1911 Nobel Prize in Chemistry for discovering polonium and which other element?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Uranium"
+      },
+      {
+        "id": "b",
+        "text": "Radon"
+      },
+      {
+        "id": "c",
+        "text": "Francium"
+      },
+      {
+        "id": "d",
+        "text": "Radium"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "She named polonium after her native Poland.",
+    "source": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "the discovery of the elements radium and polonium."
+    }
+  },
+  {
+    "id": "c-037",
+    "category": "World Cultures",
+    "difficulty": "challenging",
+    "question": "Songkran, famous for public water fights that symbolise ritual cleansing, is the New Year festival of which country?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cambodia"
+      },
+      {
+        "id": "b",
+        "text": "Vietnam"
+      },
+      {
+        "id": "c",
+        "text": "Myanmar"
+      },
+      {
+        "id": "d",
+        "text": "Thailand"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Water is poured to wash away bad luck and show respect to elders.",
+    "source": "https://en.wikipedia.org/wiki/Songkran_(Thailand)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Songkran is the Thai New Year's national holiday. Celebrations are known for public water fights, which symbolize ritual cleansing."
+    }
+  },
+  {
+    "id": "c-038",
+    "category": "World Cultures",
+    "difficulty": "challenging",
+    "question": "What is the name of the wide sash tied around a traditional Japanese kimono?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Geta"
+      },
+      {
+        "id": "b",
+        "text": "Obi"
+      },
+      {
+        "id": "c",
+        "text": "Tabi"
+      },
+      {
+        "id": "d",
+        "text": "Haori"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Obi come in many shapes and sizes, and the way they are tied can signal occasion and formality.",
+    "source": "https://en.wikipedia.org/wiki/Obi_(sash)",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "The obi is a sash of varying size and shape worn with traditional Japanese clothing."
+    }
+  },
+  {
+    "id": "c-039",
+    "category": "War",
+    "difficulty": "challenging",
+    "question": "The 1842 Treaty of Nanking ended which war between Britain and Qing China?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Boxer Rebellion"
+      },
+      {
+        "id": "b",
+        "text": "Taiping Rebellion"
+      },
+      {
+        "id": "c",
+        "text": "First Opium War"
+      },
+      {
+        "id": "d",
+        "text": "Second Opium War"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Under the treaty, Hong Kong Island passed to Britain as a crown colony.",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_Nanking",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "the peace treaty which ended the First Opium War (1839–1842)."
+    }
+  },
+  {
+    "id": "c-040",
+    "category": "War",
+    "difficulty": "challenging",
+    "question": "The 1757 Battle of Plassey gave the British East India Company control over which region?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bengal"
+      },
+      {
+        "id": "b",
+        "text": "Punjab"
+      },
+      {
+        "id": "c",
+        "text": "Mysore"
+      },
+      {
+        "id": "d",
+        "text": "Hyderabad"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Robert Clive's victory over the Nawab of Bengal began the Company's rise from trading firm to ruling power in India.",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Plassey",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "a decisive victory of the British East India Company over the Nawab of Bengal"
+    }
+  },
+  {
+    "id": "c-041",
+    "category": "History",
+    "difficulty": "challenging",
+    "question": "Mansa Musa, famed for his gold-laden pilgrimage to Mecca in 1324, ruled which West African empire?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Songhai Empire"
+      },
+      {
+        "id": "b",
+        "text": "Ghana Empire"
+      },
+      {
+        "id": "c",
+        "text": "Kanem-Bornu Empire"
+      },
+      {
+        "id": "d",
+        "text": "Mali Empire"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "His lavish hajj reportedly spread so much gold that it briefly depressed its value in the lands he passed.",
+    "source": "https://en.wikipedia.org/wiki/Mansa_Musa",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Musa went on Hajj to Mecca in 1324, traveling with an enormous entourage and a vast supply of gold."
+    }
+  },
+  {
+    "id": "c-042",
+    "category": "History",
+    "difficulty": "challenging",
+    "question": "Which Portuguese navigator first linked Europe and India by sea, landing at Kozhikode in 1498?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bartolomeu Dias"
+      },
+      {
+        "id": "b",
+        "text": "Vasco da Gama"
+      },
+      {
+        "id": "c",
+        "text": "Pedro Cabral"
+      },
+      {
+        "id": "d",
+        "text": "Henry the Navigator"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Da Gama's voyage round Africa's southern tip opened a sea route to Asia that bypassed overland trade.",
+    "source": "https://en.wikipedia.org/wiki/Vasco_da_Gama",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Da Gama finally accomplished the feat when he landed at Kozhikode on 20 May 1498."
+    }
   }
 ]

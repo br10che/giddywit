@@ -46,6 +46,8 @@ export function trailPercent(score: number): number {
 
 /** Ride animation timing (ms). Bigger rewards ride for longer. */
 export const RIDE_DELAY_MS = 250;
+/** Extra wait before the ride after an expert answer, while the horse rears up. */
+export const REAR_MS = 1100;
 export function rideDurationMs(pointsGained: number): number {
   return Math.round(Math.min(1500, Math.max(1000, 900 + pointsGained * 2)));
 }

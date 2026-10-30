@@ -1022,5 +1022,325 @@
       "checkedOn": "2026-10-29",
       "evidence": "The Roman poet Virgil guides him through Hell and Purgatory; Beatrice, Dante's ideal woman, guides him through Heaven."
     }
+  },
+  {
+    "id": "x-033",
+    "category": "Music",
+    "difficulty": "expert",
+    "question": "Gamelan, an ensemble of mostly percussion instruments, is traditional music of which Indonesian regions?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sumatra and Borneo"
+      },
+      {
+        "id": "b",
+        "text": "Java and Bali"
+      },
+      {
+        "id": "c",
+        "text": "Sulawesi and Papua"
+      },
+      {
+        "id": "d",
+        "text": "Timor and Flores"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "A gamelan is usually played as a whole set of tuned gongs and metallophones.",
+    "source": "https://en.wikipedia.org/wiki/Gamelan",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "the traditional ensemble music of the Javanese, Sundanese, and Balinese peoples of Indonesia"
+    }
+  },
+  {
+    "id": "x-034",
+    "category": "Music",
+    "difficulty": "expert",
+    "question": "Which Hungarian composer wrote the one-act opera 'Bluebeard's Castle'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Zoltán Kodály"
+      },
+      {
+        "id": "b",
+        "text": "Franz Liszt"
+      },
+      {
+        "id": "c",
+        "text": "Béla Bartók"
+      },
+      {
+        "id": "d",
+        "text": "Ernő Dohnányi"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Bartók's only opera was written in 1911 for a libretto by Béla Balázs.",
+    "source": "https://en.wikipedia.org/wiki/Bluebeard%27s_Castle",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "is a one-act Symbolist opera by Béla Bartók"
+    }
+  },
+  {
+    "id": "x-035",
+    "category": "Chemistry",
+    "difficulty": "expert",
+    "question": "Which stable element has the highest density?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Platinum"
+      },
+      {
+        "id": "b",
+        "text": "Lead"
+      },
+      {
+        "id": "c",
+        "text": "Gold"
+      },
+      {
+        "id": "d",
+        "text": "Osmium"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "A litre of osmium would weigh about 22.6 kg.",
+    "source": "https://en.wikipedia.org/wiki/Osmium",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Osmium has the highest density of any stable element."
+    }
+  },
+  {
+    "id": "x-036",
+    "category": "Chemistry",
+    "difficulty": "expert",
+    "question": "Oganesson, element 118, is named after which living-at-naming scientist?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Glenn Seaborg"
+      },
+      {
+        "id": "b",
+        "text": "Yuri Oganessian"
+      },
+      {
+        "id": "c",
+        "text": "Albert Ghiorso"
+      },
+      {
+        "id": "d",
+        "text": "Georgy Flerov"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Only the second element named after a living person, after seaborgium.",
+    "source": "https://en.wikipedia.org/wiki/Oganesson",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Element 118 was named after Yuri Oganessian, a pioneer in the discovery of synthetic elements, with the name oganesson (Og)."
+    }
+  },
+  {
+    "id": "x-037",
+    "category": "World Cultures",
+    "difficulty": "expert",
+    "question": "Timkat, celebrated with processions of replica Arks of the Covenant, commemorates which event in the Ethiopian Orthodox Church?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Nativity of Jesus"
+      },
+      {
+        "id": "b",
+        "text": "The baptism of Jesus"
+      },
+      {
+        "id": "c",
+        "text": "The Resurrection"
+      },
+      {
+        "id": "d",
+        "text": "The Transfiguration"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Timkat is the Ethiopian Orthodox observance of Epiphany, held each January.",
+    "source": "https://en.wikipedia.org/wiki/Timkat",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Timkat celebrates the baptism of Jesus in the River Jordan."
+    }
+  },
+  {
+    "id": "x-038",
+    "category": "World Cultures",
+    "difficulty": "expert",
+    "question": "Mongolia's Naadam festival features three traditional 'manly games'. Which trio is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wrestling, horse racing, archery"
+      },
+      {
+        "id": "b",
+        "text": "Wrestling, camel racing, falconry"
+      },
+      {
+        "id": "c",
+        "text": "Archery, polo, tug of war"
+      },
+      {
+        "id": "d",
+        "text": "Horse racing, javelin, boxing"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Naadam is held each summer, and women and children now take part in some events too.",
+    "source": "https://en.wikipedia.org/wiki/Naadam",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Naadam involves Mongolian wrestling, horse racing and archery."
+    }
+  },
+  {
+    "id": "x-039",
+    "category": "War",
+    "difficulty": "expert",
+    "question": "Which 1260 battle in the Jezreel Valley saw the Mamluks defeat a Mongol-led army?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ain Jalut"
+      },
+      {
+        "id": "b",
+        "text": "Manzikert"
+      },
+      {
+        "id": "c",
+        "text": "Hattin"
+      },
+      {
+        "id": "d",
+        "text": "Nicopolis"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Ain Jalut halted the Mongol advance into Egypt and North Africa.",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "On September 3, 1260, Mamluk forces beat the Mongol-led Ilkhanate army near the Ayn Jalut spring in the Jezreel Valley."
+    }
+  },
+  {
+    "id": "x-040",
+    "category": "War",
+    "difficulty": "expert",
+    "question": "The c. 1259 BC Treaty of Kadesh was agreed between Ramesses II of Egypt and which empire?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Assyrian"
+      },
+      {
+        "id": "b",
+        "text": "Babylonian"
+      },
+      {
+        "id": "c",
+        "text": "Hittite"
+      },
+      {
+        "id": "d",
+        "text": "Mitanni"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It is the oldest known surviving peace treaty, preserved in both Egyptian hieroglyphs and Hittite cuneiform.",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_Kadesh",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "concluded between Ramesses II of the Egyptian Empire and Ḫattušili III of the Hittite Empire ... the oldest known surviving peace treaty"
+    }
+  },
+  {
+    "id": "x-041",
+    "category": "History",
+    "difficulty": "expert",
+    "question": "Which German city was the informal capital of the medieval Hanseatic League?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hamburg"
+      },
+      {
+        "id": "b",
+        "text": "Lübeck"
+      },
+      {
+        "id": "c",
+        "text": "Cologne"
+      },
+      {
+        "id": "d",
+        "text": "Bremen"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The Hanseatic League was a trading confederation of merchant guilds and towns around the Baltic and North Seas.",
+    "source": "https://en.wikipedia.org/wiki/Hanseatic_League",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Lübeck hegemony peaked during the 15th century; infobox lists Lübeck as informal capital"
+    }
+  },
+  {
+    "id": "x-042",
+    "category": "History",
+    "difficulty": "expert",
+    "question": "The Corpus Juris Civilis, a landmark codification of Roman law, was ordered by which emperor?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Constantine I"
+      },
+      {
+        "id": "b",
+        "text": "Theodosius II"
+      },
+      {
+        "id": "c",
+        "text": "Heraclius"
+      },
+      {
+        "id": "d",
+        "text": "Justinian I"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Compiled in the 6th century, it became the foundation of civil law systems across much of Europe.",
+    "source": "https://en.wikipedia.org/wiki/Corpus_Juris_Civilis",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "enacted from 529 to 534 by order of Roman Emperor Justinian I"
+    }
   }
 ]

@@ -23,6 +23,8 @@ export interface RiderPose {
   cheer: number;
   /** Seconds since a wrong answer (head shake + "?"), or -1. */
   oops: number;
+  /** Seconds since a correct expert answer (horse rears up + "YEEHAW!"), or -1. */
+  rear: number;
   /** Free-running clock for idle details. */
   clock: number;
   still: boolean;
@@ -311,10 +313,16 @@ export function drawGround(f: Frame): void {
 /* ───────────────────────────── props ───────────────────────────── */
 
 
-const SIGNS = ['SALOON', 'HOTEL', 'BANK', 'STORE', 'INN', 'BARBER'];
+const SIGNS = ['SALOON', 'HOTEL', 'BANK', 'STORE', 'INN', 'BARBER', 'TAILOR'];
 
-function storefront(P: Painter, x: number, base: number, r: () => number, f: Frame, lit: boolean): void {
-  const sign = SIGNS[Math.floor(r() * SIGNS.length)];
+/** Sign for the building on a given tile: steps through SIGNS so neighbouring buildings never share one. */
+function signFor(worldX: number, tile: number): string {
+  const n = SIGNS.length;
+  return SIGNS[(((Math.floor(worldX / tile) * 3) % n) + n) % n];
+}
+
+function storefront(P: Painter, x: number, base: number, r: () => number, f: Frame, lit: boolean, sign: string): void {
+  r(); // keeps the remaining building details the same as before
   const w = Math.max(20, textWidth(sign) + 8);
   const h = 16 + Math.floor(r() * 8);
   const left = Math.round(x - w / 2);
@@ -519,7 +527,7 @@ export function drawNearBack(f: Frame): void {
     if (p < -0.06 || region === 'town') {
       if (p < 0.13) {
         if (roll < 0.14) waterTower(P, sx, base);
-        else if (roll < 0.9) storefront(P, sx, base, r, f, false);
+        else if (roll < 0.9) storefront(P, sx, base, r, f, false, signFor(worldX, 44));
       } else if (roll < 0.4) fence(P, sx, base);
     } else if (region === 'desert') {
       if (roll < 0.45) saguaro(P, sx, base, r, 1.5);
@@ -532,11 +540,10 @@ export function drawNearBack(f: Frame): void {
       if (roll > 0.5 && roll < 0.7) pine(P, sx + 7, base - 1, r, 1);
     } else if (region === 'end') {
       if (p > 0.93 && p < 1.25) {
-        if (roll < 0.78) storefront(P, sx, base, r, f, true);
+        if (roll < 0.78) storefront(P, sx, base, r, f, true, signFor(worldX, 44));
         else lanternPost(P, sx, base, f);
       } else if (roll < 0.45) pine(P, sx, base - 2, r, 1.1);
     }
-    void worldX;
   }, 0.25);
 }
 
@@ -709,7 +716,9 @@ export function drawRider(f: Frame, pose: RiderPose): void {
   const hdx = shaking ? Math.round(Math.sin(pose.oops * 30)) : 0;
   const hdy = grazing ? 3 : 0;
 
+  const rearing = pose.rear >= 0;
   const legAngles = (offset: number, front: boolean) => {
+    if (rearing && front) return { a: 0.9 + 0.35 * Math.sin(pose.rear * 22 + offset), b: -1.6 };
     if (!gallop) return { a: front ? 0.05 : -0.05, b: 0 };
     const s = Math.sin(φ + offset);
     const c = Math.cos(φ + offset);
@@ -846,6 +855,17 @@ const RIDER_H = 64;
 const RIDER_OX = 30;
 const RIDER_OY = 52;
 
+const REAR_PEAK = 0.6; // radians the horse tips back when rearing
+
+/** How far the horse is reared up: rises fast, holds with a wobble, settles back down. */
+function rearAngle(t: number): number {
+  if (t < 0) return 0;
+  if (t < 0.25) return REAR_PEAK * Math.sin((t / 0.25) * (Math.PI / 2));
+  if (t < 0.8) return REAR_PEAK + 0.05 * Math.sin((t - 0.25) * 18);
+  if (t < 1.1) return REAR_PEAK * (1 - (t - 0.8) / 0.3);
+  return 0;
+}
+
 /** Draws the rider with a crisp dark outline so it reads against any scenery. */
 export function drawRiderOutlined(f: Frame, pose: RiderPose): void {
   if (!riderCanvas) {
@@ -878,8 +898,34 @@ export function drawRiderOutlined(f: Frame, pose: RiderPose): void {
   const oy = f.L.roadY + 1 - RIDER_OY;
   ctx.fillStyle = 'rgba(30,18,24,0.25)';
   ctx.fillRect(f.L.riderX - 10, f.L.roadY + 1, 22, 1);
+  // rearing pivots the whole horse and rider on the hind hooves
+  const angle = rearAngle(pose.rear);
+  ctx.save();
+  if (angle > 0) {
+    const px = f.L.riderX - 6;
+    const py = f.L.roadY + 1;
+    ctx.translate(px, py);
+    ctx.rotate(-angle);
+    ctx.translate(-px, -py);
+  }
   for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) ctx.drawImage(maskCanvas!, ox + dx, oy + dy);
   ctx.drawImage(riderCanvas, ox, oy);
+  ctx.restore();
+  if (pose.rear >= 0.1 && pose.rear < 1.1) yeehaw(f, pose.rear);
+}
+
+/** "YEEHAW!" speech bubble that pops up above the rearing horse. */
+function yeehaw(f: Frame, t: number): void {
+  const { P, L } = f;
+  const text = 'YEEHAW!';
+  const tw = textWidth(text);
+  const rise = Math.min(4, Math.floor((t - 0.1) * 20));
+  const bx = L.riderX + 6;
+  const by = L.roadY - 44 - rise;
+  P.rect(bx - 2, by - 2, tw + 4, 9, INK.outline);
+  P.rect(bx - 1, by - 1, tw + 2, 7, INK.cream);
+  P.rect(bx, by + 6, 2, 2, INK.outline);
+  drawPixelText(P.ctx, text, bx, by, P.t(INK.signInk));
 }
 
 /** A light veil of sky colour over the background layers: atmospheric distance. */

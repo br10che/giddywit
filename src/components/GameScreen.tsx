@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { DIFFICULTY_INFO, MAX_SCORE, QUESTIONS_PER_GAME, RIDE_DELAY_MS, rideDurationMs, trailPercent } from '../config';
+import { DIFFICULTY_INFO, MAX_SCORE, QUESTIONS_PER_GAME, REAR_MS, RIDE_DELAY_MS, rideDurationMs, trailPercent } from '../config';
 import type { QuestionBank } from '../game/bank';
 import { isCurrentAnswered, pointsFor, score } from '../game/session';
 import type { Session } from '../game/types';
@@ -27,7 +27,8 @@ export function GameScreen({ session, bank, event, reducedMotion, riderX, roadY,
   const answer = answered ? session.answers[session.position] : null;
   const total = score(session);
   const lastGain = session.answers[session.answers.length - 1]?.points ?? 0;
-  const shown = useCountUp(total, { delay: RIDE_DELAY_MS, duration: rideDurationMs(lastGain), instant: reducedMotion });
+  const reared = question.difficulty === 'expert' && !!answer?.correct;
+  const shown = useCountUp(total, { delay: RIDE_DELAY_MS + (reared ? REAR_MS : 0), duration: rideDurationMs(lastGain), instant: reducedMotion });
   const isLast = session.position === session.plan.length - 1;
   const points = pointsFor(question);
   const difficulty = DIFFICULTY_INFO[question.difficulty];
@@ -107,7 +108,7 @@ export function GameScreen({ session, bank, event, reducedMotion, riderX, roadY,
         <span
           key={event.id}
           className={`float-points pixel${reducedMotion ? ' float-points--still' : ''}`}
-          style={{ left: riderX, top: roadY }}
+          style={{ left: riderX, top: roadY, animationDelay: reared && !reducedMotion ? `${REAR_MS}ms` : undefined }}
           aria-hidden="true"
         >
           +{answer.points}

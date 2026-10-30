@@ -1022,5 +1022,325 @@
       "checkedOn": "2026-10-29",
       "evidence": "said to have been written by the noblewoman, poet, and lady-in-waiting Murasaki Shikibu ... around the peak of the Heian period, in the early 11th century"
     }
+  },
+  {
+    "id": "h-033",
+    "category": "Music",
+    "difficulty": "hard",
+    "question": "Bossa nova, a relaxed style of samba, developed in the late 1950s in which city?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Rio de Janeiro"
+      },
+      {
+        "id": "b",
+        "text": "Buenos Aires"
+      },
+      {
+        "id": "c",
+        "text": "Salvador"
+      },
+      {
+        "id": "d",
+        "text": "Lisbon"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "João Gilberto's guitar rhythm and soft singing helped shape the new sound.",
+    "source": "https://en.wikipedia.org/wiki/Bossa_nova",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "a relaxed style of samba developed in the late 1950s and early 1960s in Rio de Janeiro, Brazil"
+    }
+  },
+  {
+    "id": "h-034",
+    "category": "Music",
+    "difficulty": "hard",
+    "question": "Which Austrian composer wrote the expressionist opera 'Wozzeck'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Arnold Schoenberg"
+      },
+      {
+        "id": "b",
+        "text": "Anton Webern"
+      },
+      {
+        "id": "c",
+        "text": "Gustav Mahler"
+      },
+      {
+        "id": "d",
+        "text": "Alban Berg"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Wozzeck was Berg's first opera and a landmark of twentieth-century music.",
+    "source": "https://en.wikipedia.org/wiki/Wozzeck",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "the first opera by Austrian composer Alban Berg"
+    }
+  },
+  {
+    "id": "h-035",
+    "category": "Chemistry",
+    "difficulty": "hard",
+    "question": "Which element has the chemical symbol Sb?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Antimony"
+      },
+      {
+        "id": "b",
+        "text": "Tin"
+      },
+      {
+        "id": "c",
+        "text": "Selenium"
+      },
+      {
+        "id": "d",
+        "text": "Strontium"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The symbol comes from the Latin stibium.",
+    "source": "https://en.wikipedia.org/wiki/Antimony",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Antimony is a chemical element with the symbol Sb (from Latin stibium) and atomic number 51."
+    }
+  },
+  {
+    "id": "h-036",
+    "category": "Chemistry",
+    "difficulty": "hard",
+    "question": "The Haber process, vital for making fertiliser, combines nitrogen and hydrogen to produce which compound?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nitric acid"
+      },
+      {
+        "id": "b",
+        "text": "Urea"
+      },
+      {
+        "id": "c",
+        "text": "Ammonia"
+      },
+      {
+        "id": "d",
+        "text": "Methane"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It uses an iron catalyst to pull nitrogen from the air into ammonia.",
+    "source": "https://en.wikipedia.org/wiki/Haber_process",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "It combines nitrogen from the air with hydrogen, using an iron catalyst, to form ammonia (NH3)."
+    }
+  },
+  {
+    "id": "h-037",
+    "category": "World Cultures",
+    "difficulty": "hard",
+    "question": "Inti Raymi, a festival held every June, began as a ceremony of which civilisation?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Aztec"
+      },
+      {
+        "id": "b",
+        "text": "Maya"
+      },
+      {
+        "id": "c",
+        "text": "Inca"
+      },
+      {
+        "id": "d",
+        "text": "Olmec"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "It honoured Inti, the sun god, at the winter solstice and is still re-enacted in Cusco, Peru, every June 24.",
+    "source": "https://en.wikipedia.org/wiki/Inti_Raymi",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Inti Raymi is a traditional religious ceremony of the Inca Empire in honor of the god Inti."
+    }
+  },
+  {
+    "id": "h-038",
+    "category": "World Cultures",
+    "difficulty": "hard",
+    "question": "Up Helly Aa, a winter fire festival ending with the burning of a replica Viking galley, is held in which part of the world?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Shetland, Scotland"
+      },
+      {
+        "id": "b",
+        "text": "Orkney, Scotland"
+      },
+      {
+        "id": "c",
+        "text": "Iceland"
+      },
+      {
+        "id": "d",
+        "text": "Faroe Islands"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The biggest event takes place in Lerwick on the last Tuesday in January.",
+    "source": "https://en.wikipedia.org/wiki/Up_Helly_Aa",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "Local festival celebrated in Shetland, Scotland. It culminates in the burning of an imitation Viking galley."
+    }
+  },
+  {
+    "id": "h-039",
+    "category": "War",
+    "difficulty": "hard",
+    "question": "At the 751 Battle of Talas, the Abbasid Caliphate fought which Chinese dynasty?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Han"
+      },
+      {
+        "id": "b",
+        "text": "Sui"
+      },
+      {
+        "id": "c",
+        "text": "Tang"
+      },
+      {
+        "id": "d",
+        "text": "Song"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Talas, in Central Asia, marked the westward limit of Tang power and is traditionally linked to the spread of papermaking.",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Talas",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "an armed confrontation between the Abbasid Caliphate along with the Tibetan Empire against the Tang dynasty"
+    }
+  },
+  {
+    "id": "h-040",
+    "category": "War",
+    "difficulty": "hard",
+    "question": "Which Ottoman sultan captured Constantinople in 1453, ending the Byzantine Empire?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Suleiman the Magnificent"
+      },
+      {
+        "id": "b",
+        "text": "Selim I"
+      },
+      {
+        "id": "c",
+        "text": "Murad II"
+      },
+      {
+        "id": "d",
+        "text": "Mehmed II"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "After a 53-day siege he took the city on 29 May 1453 and made it the new Ottoman capital, earning the title 'the Conqueror'.",
+    "source": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "captured by the Ottoman Empire on 29 May 1453 as part of the culmination of a 53-day siege ... commanded by Sultan Mehmed II (later titled \"the Conqueror\") ... Mehmed II made Constantinople the new Ottoman capital"
+    }
+  },
+  {
+    "id": "h-041",
+    "category": "History",
+    "difficulty": "hard",
+    "question": "The Code of Hammurabi, a famous early law code, was a legal text from which ancient city-state?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Babylon"
+      },
+      {
+        "id": "b",
+        "text": "Ur"
+      },
+      {
+        "id": "c",
+        "text": "Nineveh"
+      },
+      {
+        "id": "d",
+        "text": "Thebes"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The laws were inscribed on a stone stele, with its famous principle of 'an eye for an eye' penalties.",
+    "source": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "The Code of Hammurabi is a Babylonian legal text composed c. 1753 BC."
+    }
+  },
+  {
+    "id": "h-042",
+    "category": "History",
+    "difficulty": "hard",
+    "question": "The 1868 Meiji Restoration in Japan overthrew which ruling shogunate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ashikaga"
+      },
+      {
+        "id": "b",
+        "text": "Minamoto"
+      },
+      {
+        "id": "c",
+        "text": "Tokugawa"
+      },
+      {
+        "id": "d",
+        "text": "Kamakura"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The Restoration returned practical power to the emperor and launched Japan's rapid modernisation.",
+    "source": "https://en.wikipedia.org/wiki/Meiji_Restoration",
+    "verification": {
+      "status": "verified",
+      "checkedOn": "2026-10-30",
+      "evidence": "restored practical power to, and consolidated the political system under, the Emperor of Japan; outcome: Overthrow of the Tokugawa shogunate"
+    }
   }
 ]
