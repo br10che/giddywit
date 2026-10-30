@@ -36,6 +36,8 @@ export interface AnswerRecord {
   correct: boolean;
   points: number;
   answeredAt: number;
+  /** No answer before the timer ran out (choiceId is then ''). */
+  timedOut?: boolean;
 }
 
 /**

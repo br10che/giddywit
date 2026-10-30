@@ -18,7 +18,7 @@ npm run dev        # http://localhost:5173
 ```bash
 npm run build      # validates the questions, type-checks, builds to dist/
 npm run preview    # serve the production build locally
-npm test           # 35 automated tests (scoring, daily selection, saving, UI)
+npm test           # 37 automated tests (scoring, daily selection, saving, UI)
 npm run validate   # check the question bank only
 ```
 
@@ -41,6 +41,7 @@ Once it has a public address, put it in `GAME.shareUrl` in `src/config.ts`. Shar
 - **UI colours and fonts:** `src/styles/theme.css` (CSS variables).
 - **Pixel-art colours:** `src/scene/palette.ts`. There's one palette per trail region, and the scene blends between neighbouring regions.
 - **Region names and where they start:** `REGIONS` in `src/scene/world.ts`.
+- **Question timer:** `QUESTION_SECONDS` in `src/config.ts` (15 by default; 0 turns it off). When it runs out the question scores 0, the right answer shows for `TIMEOUT_ADVANCE_MS`, then the game moves on. The timer pauses while How to play is open, and restarts if you leave a game and come back to it.
 - **Ride animation timing:** `RIDE_DELAY_MS` and `rideDurationMs` in `src/config.ts`.
 
 ## Add or edit questions

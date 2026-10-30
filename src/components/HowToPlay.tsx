@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { DIFFICULTIES, DIFFICULTY_INFO, GAME, MAX_SCORE, QUESTIONS_PER_GAME } from '../config';
+import { DIFFICULTIES, DIFFICULTY_INFO, GAME, MAX_SCORE, QUESTION_SECONDS, QUESTIONS_PER_GAME } from '../config';
 import { CloseIcon } from './Icons';
 
 export function HowToSteps() {
@@ -70,7 +70,12 @@ export function HowToPlay({ open, onClose }: { open: boolean; onClose: () => voi
         <ul className="fine-print">
           <li>One try per question. A wrong answer scores 0 but never costs you points.</li>
           <li>A perfect run of {QUESTIONS_PER_GAME} is {MAX_SCORE.toLocaleString('en-US')} points: the end of the trail.</li>
-          <li>No timer — take as long as you like. Keys 1–4 pick an answer.</li>
+          <li>
+            {QUESTION_SECONDS > 0
+              ? `You have ${QUESTION_SECONDS} seconds per question. If time runs out it scores 0 and the ride moves on.`
+              : 'No timer — take as long as you like.'}{' '}
+            Keys 1–4 pick an answer.
+          </li>
           <li>Everyone gets the same daily ride. A new one starts at midnight UTC.</li>
           <li>Practice games are unlimited and don't affect your daily result.</li>
         </ul>

@@ -1,6 +1,6 @@
 import { DIFFICULTY_INFO } from '../config';
 import type { QuestionBank } from './bank';
-import type { Mode, PlannedQuestion, Question, Session } from './types';
+import type { AnswerRecord, Mode, PlannedQuestion, Question, Session } from './types';
 
 /**
  * Pure game-state transitions. Every function returns a new Session, or the same
@@ -64,14 +64,23 @@ export function submitAnswer(session: Session, choiceId: string, bank: QuestionB
   if (!question) return session;
 
   const correct = choiceId === question.answerId;
-  const answers = [
-    ...session.answers,
-    { questionId: question.id, choiceId, correct, points: correct ? pointsFor(question) : 0, answeredAt: now },
-  ];
+  return record(session, { questionId: question.id, choiceId, correct, points: correct ? pointsFor(question) : 0, answeredAt: now });
+}
+
+/** The timer ran out on the current question: it scores 0, like a wrong answer. */
+export function submitTimeout(session: Session, bank: QuestionBank, now: number): Session {
+  if (isFinished(session) || isCurrentAnswered(session)) return session;
+  const question = bank.byId.get(session.plan[session.position].questionId);
+  if (!question) return session;
+  return record(session, { questionId: question.id, choiceId: '', correct: false, points: 0, answeredAt: now, timedOut: true });
+}
+
+function record(session: Session, answer: AnswerRecord): Session {
+  const answers = [...session.answers, answer];
   return {
     ...session,
     answers,
-    completedAt: answers.length >= session.plan.length ? now : session.completedAt,
+    completedAt: answers.length >= session.plan.length ? answer.answeredAt : session.completedAt,
   };
 }
 

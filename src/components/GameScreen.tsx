@@ -1,9 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { DIFFICULTY_INFO, MAX_SCORE, QUESTIONS_PER_GAME, REAR_MS, RIDE_DELAY_MS, rideDurationMs, trailPercent } from '../config';
+import { playTick } from '../audio/sound';
+import {
+  DIFFICULTY_INFO, MAX_SCORE, QUESTION_SECONDS, QUESTIONS_PER_GAME, REAR_MS, RIDE_DELAY_MS, rideDurationMs, TIMEOUT_ADVANCE_MS, trailPercent,
+} from '../config';
 import type { QuestionBank } from '../game/bank';
 import { isCurrentAnswered, pointsFor, score } from '../game/session';
 import type { Session } from '../game/types';
-import { useCountUp } from '../hooks';
+import { useCountdown, useCountUp } from '../hooks';
 import type { SceneEvent } from '../scene/TrailScene';
 import { REGIONS, regionIndexAt } from '../scene/world';
 import { CheckIcon, CrossIcon } from './Icons';
@@ -17,10 +20,12 @@ interface Props {
   riderX: number;
   roadY: number;
   onAnswer: (choiceId: string) => void;
+  /** The timer ran out with no answer. */
+  onTimeout: () => void;
   onNext: () => void;
 }
 
-export function GameScreen({ session, bank, event, reducedMotion, riderX, roadY, onAnswer, onNext }: Props) {
+export function GameScreen({ session, bank, event, reducedMotion, riderX, roadY, onAnswer, onTimeout, onNext }: Props) {
   const planned = session.plan[session.position];
   const question = bank.byId.get(planned.questionId)!;
   const answered = isCurrentAnswered(session);
@@ -36,6 +41,24 @@ export function GameScreen({ session, bank, event, reducedMotion, riderX, roadY,
     () => planned.choiceOrder.map((id) => question.choices.find((c) => c.id === id)!),
     [planned, question],
   );
+
+  // Question timer: runs until an answer is picked; at zero the question scores 0.
+  const timed = QUESTION_SECONDS > 0;
+  const msLeft = useCountdown(QUESTION_SECONDS * 1000, timed && !answered, session.position, onTimeout);
+  const secondsLeft = Math.ceil(msLeft / 1000);
+  useEffect(() => {
+    if (timed && !answered && secondsLeft > 0 && secondsLeft <= 3) playTick();
+  }, [timed, answered, secondsLeft]);
+
+  // After a time-out, show the right answer briefly, then move on by itself.
+  const next = useRef(onNext);
+  next.current = onNext;
+  const timedOut = !!answer?.timedOut;
+  useEffect(() => {
+    if (!timedOut) return;
+    const timer = window.setTimeout(() => next.current(), TIMEOUT_ADVANCE_MS);
+    return () => window.clearTimeout(timer);
+  }, [timedOut, session.position]);
 
   const headingRef = useRef<HTMLHeadingElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
@@ -68,6 +91,8 @@ export function GameScreen({ session, bank, event, reducedMotion, riderX, roadY,
   const announcement = answer
     ? answer.correct
       ? `Correct! Plus ${answer.points} points. Score ${total} of ${MAX_SCORE}. Trail progress ${trailPercent(total)} percent.`
+      : answer.timedOut
+      ? `Time's up. The answer is ${question.choices.find((c) => c.id === question.answerId)?.text}. Score stays at ${total}.`
       : `Not quite. The answer is ${question.choices.find((c) => c.id === question.answerId)?.text}. Score stays at ${total}.`
     : '';
 
@@ -128,6 +153,20 @@ export function GameScreen({ session, bank, event, reducedMotion, riderX, roadY,
           <span className="card__category">{question.category}</span>
         </header>
 
+        {timed && !answered && (
+          <div
+            className="timer"
+            data-state={secondsLeft <= 5 ? 'low' : 'ok'}
+            role="timer"
+            aria-label={`${secondsLeft} seconds left`}
+          >
+            <span className="timer__bar" aria-hidden="true">
+              <span className="timer__fill" style={{ transform: `scaleX(${msLeft / (QUESTION_SECONDS * 1000)})` }} />
+            </span>
+            <span className="timer__secs pixel" aria-hidden="true">{secondsLeft}s</span>
+          </div>
+        )}
+
         <h2 id="question-text" className="card__question" ref={headingRef} tabIndex={-1}>
           {question.question}
         </h2>
@@ -169,6 +208,10 @@ export function GameScreen({ session, bank, event, reducedMotion, riderX, roadY,
                 <>
                   <CheckIcon /> Correct! <span className="pixel feedback__gain">+{answer.points}</span>
                 </>
+              ) : timedOut ? (
+                <>
+                  <CrossIcon /> Time's up — it's <strong>{correctText}</strong>.
+                </>
               ) : (
                 <>
                   <CrossIcon /> Not this time — it's <strong>{correctText}</strong>.
@@ -183,6 +226,7 @@ export function GameScreen({ session, bank, event, reducedMotion, riderX, roadY,
             </p>
             <button type="button" ref={nextRef} className="btn btn--primary btn--block" onClick={onNext}>
               {isLast ? 'See results' : 'Next question'}
+              {timedOut && <span className="sr-only"> (moves on by itself)</span>}
             </button>
           </div>
         )}

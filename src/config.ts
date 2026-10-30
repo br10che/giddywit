@@ -44,6 +44,11 @@ export function trailPercent(score: number): number {
   return Math.round((Math.max(0, Math.min(score, MAX_SCORE)) / MAX_SCORE) * 100);
 }
 
+/** Seconds to answer each question. When it runs out the question scores 0 and the game moves on. 0 turns the timer off. */
+export const QUESTION_SECONDS = 15;
+/** After a time-out, how long the right answer stays on screen before the next question (ms). */
+export const TIMEOUT_ADVANCE_MS = 3500;
+
 /** Ride animation timing (ms). Bigger rewards ride for longer. */
 export const RIDE_DELAY_MS = 250;
 /** Extra wait before the ride after an expert answer, while the horse rears up. */

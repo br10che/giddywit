@@ -107,6 +107,20 @@ export function playYeehaw(): void {
   });
 }
 
+/** A soft tick for each of the last few seconds on the timer. */
+export function playTick(): void {
+  if (!ready()) return;
+  tone(880, ctx!.currentTime, 0.04, 'square', 0.02);
+}
+
+/** Time ran out: two low, quick notes. */
+export function playTimeUp(): void {
+  if (!ready()) return;
+  const t = ctx!.currentTime;
+  tone(294, t, 0.12, 'square', 0.04);
+  tone(220, t + 0.12, 0.25, 'square', 0.04);
+}
+
 export function playWrong(): void {
   if (!ready()) return;
   const t = ctx!.currentTime;

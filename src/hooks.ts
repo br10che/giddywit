@@ -25,6 +25,36 @@ export function useViewport(): { width: number; height: number } {
   return size;
 }
 
+/**
+ * Counts down `totalMs` while `running`, restarting whenever `resetKey` changes.
+ * Pauses while a dialog (e.g. How to play) is open. Calls `onExpire` once at zero.
+ */
+export function useCountdown(totalMs: number, running: boolean, resetKey: unknown, onExpire: () => void): number {
+  const [left, setLeft] = useState(totalMs);
+  const expire = useRef(onExpire);
+  expire.current = onExpire;
+  useEffect(() => {
+    if (!running || totalMs <= 0) return;
+    let remaining = totalMs;
+    let last = performance.now();
+    setLeft(remaining);
+    const timer = window.setInterval(() => {
+      const now = performance.now();
+      const dt = now - last;
+      last = now;
+      if (document.querySelector('dialog[open]')) return;
+      remaining = Math.max(0, remaining - dt);
+      setLeft(remaining);
+      if (remaining === 0) {
+        window.clearInterval(timer);
+        expire.current();
+      }
+    }, 100);
+    return () => window.clearInterval(timer);
+  }, [running, resetKey, totalMs]);
+  return left;
+}
+
 /** Animates a displayed number toward `target` (no animation when `instant`). */
 export function useCountUp(target: number, opts: { delay: number; duration: number; instant: boolean }): number {
   const [value, setValue] = useState(target);

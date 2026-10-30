@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { MAX_SCORE, QUESTION_SCHEDULE, trailPercent, DIFFICULTY_INFO } from '../src/config';
 import { buildDailyPlan } from '../src/game/daily';
-import { allAnswered, correctCount, createSession, goToNext, isFinished, score, submitAnswer } from '../src/game/session';
+import { allAnswered, correctCount, createSession, goToNext, isFinished, score, submitAnswer, submitTimeout } from '../src/game/session';
 import { fakeBank } from './helpers';
 
 const bank = fakeBank();
@@ -31,6 +31,24 @@ describe('scoring', () => {
     s = submitAnswer(s, 'a', bank, 2);
     expect(s.answers[1]).toMatchObject({ correct: false, points: 0 });
     expect(score(s)).toBe(before);
+  });
+
+  it('a time-out scores zero, keeps the score and can then move on', () => {
+    let s = newGame();
+    s = submitAnswer(s, rightId(s.plan[0].questionId), bank, 1);
+    s = goToNext(s);
+    const before = score(s);
+    s = submitTimeout(s, bank, 2);
+    expect(s.answers[1]).toMatchObject({ questionId: s.plan[1].questionId, choiceId: '', correct: false, points: 0, timedOut: true });
+    expect(score(s)).toBe(before);
+    expect(goToNext(s).position).toBe(2);
+  });
+
+  it('a late time-out never overrides an answer already given', () => {
+    const s0 = newGame();
+    const s1 = submitAnswer(s0, rightId(s0.plan[0].questionId), bank, 1);
+    expect(submitTimeout(s1, bank, 2)).toBe(s1);
+    expect(score(s1)).toBe(50);
   });
 
   it('ignores choices that are not part of the question', () => {

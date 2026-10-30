@@ -164,7 +164,7 @@ export function ResultsScreen({ session, bank, best, streak, todayPlayed, onPrac
                       <span><strong>{right}</strong> — correct, +{a.points}</span>
                     ) : (
                       <span>
-                        You said {picked}. Answer: <strong>{right}</strong>
+                        {a.timedOut ? 'Time ran out.' : `You said ${picked}.`} Answer: <strong>{right}</strong>
                       </span>
                     )}
                   </p>

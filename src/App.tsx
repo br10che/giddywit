@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { MAX_SCORE, REAR_MS, RIDE_DELAY_MS, rideDurationMs } from './config';
 import { BANK } from './content/bank';
-import { playClick, playCorrect, playFinish, playYeehaw, playWrong, setSoundEnabled, unlockAudio } from './audio/sound';
+import { playClick, playCorrect, playFinish, playTimeUp, playYeehaw, playWrong, setSoundEnabled, unlockAudio } from './audio/sound';
 import type { QuestionBank } from './game/bank';
 import { utcDateKey } from './game/daily';
 import { currentStreak, newDailySession, resolveDaily } from './game/flow';
 import { buildPracticePlan } from './game/practice';
-import { createSession, goToNext, isFinished, isPlayableWith, score, submitAnswer } from './game/session';
+import { createSession, goToNext, isFinished, isPlayableWith, score, submitAnswer, submitTimeout } from './game/session';
 import { GameStorage, type Prefs } from './game/storage';
 import type { Session } from './game/types';
 import { GameScreen } from './components/GameScreen';
@@ -154,6 +154,16 @@ export default function App({ storage: injected, bank = BANK, clock = Date.now }
     [current, bank, clock, storage],
   );
 
+  const timeOut = useCallback(() => {
+    if (!current) return;
+    const next = submitTimeout(current, bank, clock());
+    if (next === current) return;
+    storage.saveSession(next);
+    setScreen({ name: 'play', session: next });
+    playTimeUp();
+    setEvent({ type: 'wrong', id: ++eventId.current });
+  }, [current, bank, clock, storage]);
+
   const goNext = () => {
     if (!current) return;
     const next = goToNext(current);
@@ -228,6 +238,7 @@ export default function App({ storage: injected, bank = BANK, clock = Date.now }
             riderX={layout.riderX}
             roadY={layout.roadY}
             onAnswer={answer}
+            onTimeout={timeOut}
             onNext={goNext}
           />
         )}
